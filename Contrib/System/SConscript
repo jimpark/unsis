@@ -1,0 +1,63 @@
+target = 'System'
+
+files = Split("""
+	Source/Buffers.c
+   Source/Call.S
+	Source/Plugin.c
+	Source/System.c
+""")
+
+libs = Split("""
+	kernel32
+	user32
+	ole32
+""")
+
+docs = Split("""
+	System.html
+	WhatsNew.txt
+""")
+
+Import('BuildPlugin env')
+
+if env['UNICODE']:
+	examples = Split("""
+		Resource.dll
+		Unicode/System.nsi
+		Unicode/System.nsh
+		Unicode/SysFunc.nsh
+	""")
+else:
+	examples = Split("""
+		Resource.dll
+		ANSI/System.nsi
+		ANSI/System.nsh
+		ANSI/SysFunc.nsh
+	""")
+
+BuildPlugin(
+	target,
+	files,
+	libs,
+	examples,
+	docs,
+	nodeflib = False,
+	defines = ['SYSTEM_EXPORTS']
+)
+
+Import('env')
+
+res = 'Resource/Resource.rc'
+res_obj = 'Resource/Resource-rc.o'
+res_target = env.RES(res_obj, res)
+
+res_main = env.Object('Resource/Main.c')
+
+resources = Split("""
+	Resource/Icon.ico
+	Resource/Resource.h
+""")
+
+env.Depends(res_target, resources)
+
+env.SharedLibrary('Resource', res_target + res_main)

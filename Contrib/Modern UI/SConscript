@@ -1,0 +1,37 @@
+target = 'Modern UI'
+
+docs = Split("""
+	Changelog.txt
+	Readme.html
+""")
+
+doc_images = Split("""
+	closed.gif
+	header.gif
+	open.gif
+	screen1.png
+	screen2.png
+""")
+
+Import('defenv')
+
+if defenv['UNICODE']:
+	docs.append("Unicode/License.txt")
+	contribs = Split("""
+		Unicode/ioSpecial.ini
+		Unicode/System.nsh
+	""")
+else:
+	docs.append("ANSI/License.txt")
+	contribs = Split("""
+		ANSI/ioSpecial.ini
+		ANSI/System.nsh
+	""")
+
+def join(prefix, list):
+	return map(lambda x: '%s/%s' % (prefix, x), list)
+
+defenv.DistributeDocs(docs, path=target)
+path = 'images'
+defenv.DistributeDocs(join(path,doc_images), path='%s/%s'%(target,path))
+defenv.DistributeContrib(contribs, path=target)

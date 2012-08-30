@@ -1,0 +1,43 @@
+code = 'ui.c'
+
+Import('BuildUtil env')
+
+if env['UNICODE']:
+	uis = Split("""
+		Unicode/default
+		Unicode/modern
+		Unicode/modern_headerbmp
+		Unicode/modern_headerbmpr
+		Unicode/modern_nodesc
+		Unicode/modern_smalldesc
+		Unicode/sdbarker_tiny
+	""")
+else:
+	uis = Split("""
+		ANSI/default
+		ANSI/modern
+		ANSI/modern_headerbmp
+		ANSI/modern_headerbmpr
+		ANSI/modern_nodesc
+		ANSI/modern_smalldesc
+		ANSI/sdbarker_tiny
+	""")
+
+libs = Split("""
+	kernel32
+	comctl32
+	user32
+	gdi32
+""")
+
+
+code = env.Object(code)
+
+if env['UNICODE']:
+	entry = 'wWinMain'
+else:
+	entry = 'WinMain'
+
+for ui in uis:
+	ui = BuildUtil(ui, [code], libs, entry, res = ui + '.rc', contrib = True, path = 'UIs')
+	env.Alias('UIs', ui)
