@@ -375,7 +375,7 @@ int NSISCALL mystrcmpn(const TCHAR* a, const TCHAR* b, int count)
 
   if (count == 0 || (*a == 0 && *b == 0)) return 0;
   if (*a) return 1;
-  if (*b) return -1;
+  return -1;
 }
 
 const TCHAR * NSISCALL mystrstr(const TCHAR* a, const TCHAR* b)
