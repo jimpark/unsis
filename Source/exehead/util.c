@@ -442,6 +442,7 @@ HANDLE NSISCALL myOpenFile(const TCHAR *fn, DWORD da, DWORD cd)
   int len = mystrlen(fn);
   int attr = GetFileAttributes(fn);
 
+#ifdef _UNICODE
   if (mystrstr(fn, _T("\\\\?\\")) == NULL &&
       len > MAX_PATH)
   {
@@ -463,6 +464,7 @@ HANDLE NSISCALL myOpenFile(const TCHAR *fn, DWORD da, DWORD cd)
   }
   else
   {
+#endif
      handle = CreateFile(
        fn,
        da,
@@ -472,7 +474,9 @@ HANDLE NSISCALL myOpenFile(const TCHAR *fn, DWORD da, DWORD cd)
        attr == INVALID_FILE_ATTRIBUTES ? 0 : attr,
        NULL
      );
+#ifdef _UNICODE
   }
+#endif
 
   return handle;
 }
