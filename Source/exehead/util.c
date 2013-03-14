@@ -361,6 +361,43 @@ int NSISCALL is_valid_instpath(TCHAR *s)
   return 1;
 }
 
+int NSISCALL mystrcmpn(const TCHAR* a, const TCHAR* b, int count)
+{
+  while (*a != 0 && *b != 0 && count != 0)
+  {
+    if (*a < *b) return -1;
+    if (*b < *a) return 1;
+
+    ++a;
+    ++b;
+    --count;
+  }
+
+  if (count == 0 || (*a == 0 && *b == 0)) return 0;
+  if (*a) return 1;
+  if (*b) return -1;
+}
+
+const TCHAR * NSISCALL mystrstr(const TCHAR* a, const TCHAR* b)
+{
+  int bl = lstrlen(b);
+  int al = lstrlen(a);
+
+  if (al - bl >= 0)
+  {
+    int max = al - bl;
+    int offset = 0;
+
+    while (offset <= max)
+    {
+      if (mystrcmpn(&a[offset], b, bl) == 0) return &a[offset];
+      ++offset;
+    }
+  }
+
+  return NULL;
+}
+
 // Used strictly for the wininit.ini file which is an ASCII file.
 char * NSISCALL mystrstriA(char *a, const char *b)
 {
@@ -401,16 +438,43 @@ void NSISCALL remove_ro_attr(TCHAR *file)
 
 HANDLE NSISCALL myOpenFile(const TCHAR *fn, DWORD da, DWORD cd)
 {
+  HANDLE handle = 0;
+  int len = mystrlen(fn);
   int attr = GetFileAttributes(fn);
-  return CreateFile(
-    fn,
-    da,
-    FILE_SHARE_READ,
-    NULL,
-    cd,
-    attr == INVALID_FILE_ATTRIBUTES ? 0 : attr,
-    NULL
-  );
+
+  if (mystrstr(fn, _T("\\\\?\\")) == NULL &&
+      len > MAX_PATH)
+  {
+    TCHAR* path = (TCHAR*) GlobalAlloc(GPTR, (len + 5) * sizeof(TCHAR));
+    mystrcpy(path, _T("\\\\?\\"));    
+    mystrcat(path + 4, fn);
+
+    handle = CreateFile(
+      path,
+      da,
+      FILE_SHARE_READ,
+      NULL,
+      cd,
+      attr == INVALID_FILE_ATTRIBUTES ? 0 : attr,
+      NULL
+    );
+
+    GlobalFree((HGLOBAL)path);
+  }
+  else
+  {
+     handle = CreateFile(
+       fn,
+       da,
+       FILE_SHARE_READ,
+       NULL,
+       cd,
+       attr == INVALID_FILE_ATTRIBUTES ? 0 : attr,
+       NULL
+     );
+  }
+
+  return handle;
 }
 
 TCHAR * NSISCALL my_GetTempFileName(TCHAR *buf, const TCHAR *dir)

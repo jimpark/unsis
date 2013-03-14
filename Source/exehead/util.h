@@ -38,7 +38,8 @@ void NSISCALL myitoa(TCHAR *s, int d);
 TCHAR * NSISCALL mystrcpy(TCHAR *out, const TCHAR *in);
 int NSISCALL mystrlen(const TCHAR *in);
 TCHAR * NSISCALL mystrcat(TCHAR *out, const TCHAR *concat);
-TCHAR * NSISCALL mystrstr(TCHAR *a, TCHAR *b);
+int NSISCALL mystrcmpn(const TCHAR* a, const TCHAR* b, int count);
+const TCHAR * NSISCALL mystrstr(const TCHAR *a, const TCHAR *b);
 WIN32_FIND_DATA * NSISCALL file_exists(TCHAR *buf);
 TCHAR * NSISCALL my_GetTempFileName(TCHAR *buf, const TCHAR *dir);
 
