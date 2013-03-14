@@ -1,0 +1,69 @@
+1. Required Tools to Build
+--------------------------
+
+* Scons
+* wxWidgets
+* HTML Help Workshop
+* Python is also required and is in the Python directory.
+
+1.1. wxWidgets
+
+It is probably best that the wxWidgets is not installed in the default
+drive which is C: and use the D: drive instead. This is because wxWidgets
+will need to be compiled to create the libs which can make the final
+installation size upwards of 500MB.
+
+To build NSIS Menu, install wxWidgets, create an environment variable
+named WXWIN containing the path to the installation directory of
+wxWidgets, run Contrib\NSIS Menu\wx\wxbuild.bat and build NSIS as usual.
+
+To create both the ANSI and the Unicode lib files, just run:
+>wxbuild.bat
+
+To create the Unicode wxWidgets library, run:
+>wxbuild.bat unicode
+
+For the ANSI library, run:
+>wxbuild.bat ansi
+
+1.2. HTML Help Workshop
+
+To compile the documentation as a CHM file, hhc.exe must be in the
+PATH. It is available as part of HTML Help Workshop.
+
+1.3. Scons
+
+Scons is a replacement for make that is built on Python. Therefore,
+before installing Scons, Python must first be installed. Make sure Scons
+is in the PATH.
+
+Typically scons.bat gets installed in the Script directory of the Python
+installation. For example, c:\Python27\Scripts.
+
+2. Build Scripts
+----------------
+
+There are four batch files that are in our repository for Unicode NSIS.
+
+* mkdu.bat - Make debug Unicode
+* mkru.bat - Make release Unicode.
+* mkd.bat  - Make debug ANSI.
+* mkr.bat  - Make release ANSI.
+
+3. Creating a New Menu Header Image
+-----------------------------------
+
+The following script depends on the Python Imaging Library which is not
+shipped with the Python distribution. If you do not have PIL installed,
+download it from http://www.pythonware.com/products/pil/ and install it.
+
+When the version number increases, it becomes necessary to create a new
+header image that reflect the new version number. This process has been
+automated with a Python script for the Unicode version. The ANSI source
+code will have the latest ANSI header image included in its distribution.
+
+Go to Menu\images\Unicode. Run "create_header.py {version number}." For
+example:
+
+>python create_header.py "2.37"
+
