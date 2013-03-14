@@ -326,7 +326,7 @@ struct TokenHash : public std::unary_function<const TCHAR*, std::size_t>
   }
 };
 
-#if defined(MSC_PLATFORM) && _MSC_VER < 1600
+#if _MSC_VER < 1600
 typedef std::tr1::unordered_map<const TCHAR*, tokenType*, TokenHash, TokenPred> TokenMap;
 #else
 typedef std::unordered_map<const TCHAR*, tokenType*, TokenHash, TokenPred> TokenMap;
