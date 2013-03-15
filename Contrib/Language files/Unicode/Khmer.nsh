@@ -1,4 +1,4 @@
-﻿;Language: Khmer (1033)
+;Language: Khmer (1033)
 ;By yi.sophally
 
 !insertmacro LANGFILE "Khmer" "ភាសាខ្មែរ"
