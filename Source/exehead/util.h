@@ -110,6 +110,14 @@ void NSISCALL MoveFileOnReboot(LPCTSTR pszExisting, LPCTSTR pszNew);
 void NSISCALL mini_memcpy(void *out, const void *in, int len);
 void NSISCALL remove_ro_attr(TCHAR *file);
 
+/**
+ * Only tries to load the DLL from the system directory.
+ * @param dllBaseName just the base name of the library, e.g. riched32,
+ *                    not riched32.dll
+ * @return the module handle or NULL if not found.
+ */
+HMODULE NSISCALL mySafeLoadLibraryByName(const TCHAR* dllBaseName);
+
 enum myGetProcAddressFunctions {
   MGA_GetDiskFreeSpaceEx,
   MGA_MoveFileEx,

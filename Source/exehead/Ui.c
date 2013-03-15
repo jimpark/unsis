@@ -389,9 +389,9 @@ FORCE_INLINE int NSISCALL ui_doinstall(void)
       static const TCHAR riched32[]=_T("RichEd32");
       static const TCHAR richedit20a[]=_T("RichEdit20A");
       static const TCHAR richedit[]=_T("RichEdit");
-      if (!LoadLibrary(riched20))
+      if (!mySafeLoadLibraryByName(riched20))
       {
-        LoadLibrary(riched32);
+        mySafeLoadLibraryByName(riched32);
       }
 
       // make richedit20a point to RICHEDIT

@@ -1108,37 +1108,54 @@ WIN32_FIND_DATA * NSISCALL file_exists(TCHAR *buf)
   return NULL;
 }
 
+HMODULE NSISCALL mySafeLoadLibraryByName(const TCHAR* dllName)
+{
+  HMODULE hModule;
+  TCHAR szDllPath[MAX_PATH];
+  int nLenName;
+  UINT pathLen = GetSystemDirectory(szDllPath, MAX_PATH);
+  mystrcat(szDllPath + pathLen, _T("\\"));
+  mystrcat(szDllPath + pathLen + 1, dllName);
+  nLenName = mystrlen(dllName);
+  if (nLenName > 4 && lstrcmpi(dllName + nLenName - 4, _T(".dll")) != 0)
+  {
+    mystrcat(szDllPath, _T(".dll"));
+  }
+  hModule = LoadLibrary(szDllPath);
+  return hModule;
+}
+
 // Jim Park: Keep these as chars since there's only ANSI version of
 // GetProcAddress.
 struct MGA_FUNC
 {
-  const char *dll;
-  const char *func;
+  const TCHAR *dll;
+  const char  *func;
 };
 
 #ifdef _UNICODE
 struct MGA_FUNC MGA_FUNCS[] = {
-  {"KERNEL32", "GetDiskFreeSpaceExW"},
-  {"KERNEL32", "MoveFileExW"},
-  {"ADVAPI32", "RegDeleteKeyExW"},
-  {"ADVAPI32", "OpenProcessToken"},
-  {"ADVAPI32", "LookupPrivilegeValueW"},
-  {"ADVAPI32", "AdjustTokenPrivileges"},
-  {"KERNEL32", "GetUserDefaultUILanguage"},
-  {"SHLWAPI",  "SHAutoComplete"},
-  {"SHFOLDER", "SHGetFolderPathW"}
+  {_T("KERNEL32"), "GetDiskFreeSpaceExW"},
+  {_T("KERNEL32"), "MoveFileExW"},
+  {_T("ADVAPI32"), "RegDeleteKeyExW"},
+  {_T("ADVAPI32"), "OpenProcessToken"},
+  {_T("ADVAPI32"), "LookupPrivilegeValueW"},
+  {_T("ADVAPI32"), "AdjustTokenPrivileges"},
+  {_T("KERNEL32"), "GetUserDefaultUILanguage"},
+  {_T("SHLWAPI"),  "SHAutoComplete"},
+  {_T("SHFOLDER"), "SHGetFolderPathW"}
 };
 #else
 struct MGA_FUNC MGA_FUNCS[] = {
-  {"KERNEL32", "GetDiskFreeSpaceExA"},
-  {"KERNEL32", "MoveFileExA"},
-  {"ADVAPI32", "RegDeleteKeyExA"},
-  {"ADVAPI32", "OpenProcessToken"},
-  {"ADVAPI32", "LookupPrivilegeValueA"},
-  {"ADVAPI32", "AdjustTokenPrivileges"},
-  {"KERNEL32", "GetUserDefaultUILanguage"},
-  {"SHLWAPI",  "SHAutoComplete"},
-  {"SHFOLDER", "SHGetFolderPathA"}
+  {_T("KERNEL32"), "GetDiskFreeSpaceExA"},
+  {_T("KERNEL32"), "MoveFileExA"},
+  {_T("ADVAPI32"), "RegDeleteKeyExA"},
+  {_T("ADVAPI32"), "OpenProcessToken"},
+  {_T("ADVAPI32"), "LookupPrivilegeValueA"},
+  {_T("ADVAPI32"), "AdjustTokenPrivileges"},
+  {_T("KERNEL32"), "GetUserDefaultUILanguage"},
+  {_T("SHLWAPI"),  "SHAutoComplete"},
+  {_T("SHFOLDER"), "SHGetFolderPathA"}
 };
 #endif
 
@@ -1152,10 +1169,11 @@ struct MGA_FUNC MGA_FUNCS[] = {
  */
 void * NSISCALL myGetProcAddress(const enum myGetProcAddressFunctions func)
 {
-  const char *dll = MGA_FUNCS[func].dll;
-  HMODULE hModule = GetModuleHandleA(dll);
+  const TCHAR *dll = MGA_FUNCS[func].dll;
+
+  HMODULE hModule = GetModuleHandle(dll);
   if (!hModule)
-    hModule = LoadLibraryA(dll);
+    hModule = mySafeLoadLibraryByName(dll);
   if (!hModule)
     return NULL;
 
