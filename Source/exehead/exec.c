@@ -418,14 +418,10 @@ static int NSISCALL ExecuteEntry(entry *entry_)
           exec_error++;
           *p=0;
         }
-        else if (fp>buf0 && *fp)
+        else
         {
           WIN32_FIND_DATA *fd=file_exists(buf0);
-          if (fd)
-          {
-            mystrcpy(fp,fd->cFileName);
-          }
-          else
+          if (fd==NULL)
           {
             exec_error++;
             *p=0;
