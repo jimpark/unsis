@@ -1,5 +1,27 @@
 \A{history} Changelog and Release Notes
 
+\H{v2.46.8} 2.46.8
+
+\S1{v2.46.8-cl} Changelog
+
+\S2{} Major changes
+
+\b Added new languages: Cebuano, Iloko, Kirghiz, Myanmar, Sranantongo.
+
+\b Updated the Macedonian translation.
+
+\H{v2.46.7} 2.46.7
+
+\S1{v2.46.7-cl} Changelog
+
+\S2{} Major changes
+
+\b Fixed GetFullPathName bug.
+
+\b Updated Bulgarian and Hindi.
+
+\b Changed encoding of all data files from UTF-16 to UTF8.
+
 \H{v2.46.6} 2.46.6
 
 \S1{v2.46.6-cl} Changelog
