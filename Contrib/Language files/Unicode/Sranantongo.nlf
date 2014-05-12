@@ -1,0 +1,191 @@
+# Header, don't edit
+NLF v6
+# Start editing here
+# Language ID
+1543
+# Font and size - dash (-) means default
+-
+-
+# Codepage - dash (-) means ANSI code page
+-
+# RTL - anything else than RTL means LTR
+-
+# Translation by ..... (any credits should go here)
+# ^Branding
+Nullsoft Install System %s
+# ^SetupCaption
+$(^Name) Setup
+# ^UninstallCaption
+$(^Name) Puru na installatie
+# ^LicenseSubCaption
+: License Agreement
+# ^ComponentsSubCaption
+: Installatie Options
+# ^DirSubCaption
+: Na ini sortu folder yu wani installeer
+# ^InstallingSubCaption
+: A e installeer
+# ^CompletedSubCaption
+: A kaba
+# ^UnComponentsSubCaption
+: Puru installatie Options
+# ^UnDirSubCaption
+: Puru installatie Folder
+# ^ConfirmSubCaption
+: Confirmation
+# ^UninstallingSubCaption
+: A e puru na installatie
+# ^UnCompletedSubCaption
+: A kaba
+# ^BackBtn
+< &Wan na fesi
+# ^NextBtn
+&Trawan >
+# ^AgreeBtn
+Mi e &agri
+# ^AcceptBtn
+Mi e &agri nanga License Agreement
+# ^DontAcceptBtn
+Mi &no e agri nanga License Agreement
+# ^InstallBtn
+&Installeer
+# ^UninstallBtn
+&Puru installatie
+# ^CancelBtn
+Cancel
+# ^CloseBtn
+&Tapu
+# ^BrowseBtn
+B&rowse...
+# ^ShowDetailsBtn
+Sori &details
+# ^ClickNext
+Klik Next fu go doro.
+# ^ClickInstall
+Klik Install fu bigin na installatie.
+# ^ClickUninstall
+Klik Uninstall fu puru na installatie.
+# ^Name
+Nen
+# ^Completed
+A kaba
+# ^LicenseText
+Leisi a license agreement fosi yu installeer $(^NameDA). Efu yu e agri, dan klik Mi e agri.
+# ^LicenseTextCB
+Leisi a license agreement fosi yu installeer $(^NameDA). Efu yu e agri, dan klik Mi e agri. $_CLICK
+# ^LicenseTextRB
+Leisi a license agreement fosi yu installeer $(^NameDA). Efu yu e agri, dan klik a fosi option na ondrosei. $_CLICK
+# ^UnLicenseText
+Leisi a license agreement fosi yu puru na installatie $(^NameDA). Efu yu e agri, dan klik Mi e agri.
+# ^UnLicenseTextCB
+Leisi a license agreement fosi yu puru na installatie $(^NameDA). Efu yu e agri, dan klik a fosi option na ondrosei. $_CLICK
+# ^UnLicenseTextRB
+Leisi a license agreement fosi yu puru na installatie $(^NameDA). Efu yu e agri dan klik a fosi option na ondrosei. $_CLICK
+# ^Custom
+Custom
+# ^ComponentsText
+Check den pisi di yu wani installer èn no check den pisi di yu no wani installeer. $_CLICK
+# ^ComponentsSubText1
+Select fa yu wani installeer:
+# ^ComponentsSubText2_NoInstTypes
+Sori den pisi di yu wani installeer:
+# ^ComponentsSubText2
+Noso sori den tra pisi di yu wani installeer:
+# ^UnComponentsText
+Check den pisi di yu wani puru èn no check den pisi di yu no wani puru. $_CLICK
+# ^UnComponentsSubText1
+Sori fa yu wani puru na installatie:
+# ^UnComponentsSubText2_NoInstTypes
+Sori den pisi di yu wani puru:
+# ^UnComponentsSubText2
+Noso sori den tra pisi di yu wani puru fu na installatie:
+# ^DirText
+Na installatie fu $(^NameDA) sa poti na ini a folder disi. Efu yu wani poti en na ini wan tra folder, dan click Browse èn suku wan tra folder. $_CLICK
+# ^DirSubText
+Folder pe a musu de
+# ^DirBrowseText
+Sori a folder pe yu wani installeer $(^NameDA):
+# ^UnDirText
+Na installatie fu $(^NameDA) sa puru na ini a folder disi. Efu yu wani puru na installatie fu wan tra folder, dan klik Browse èn sori wan tra folder. $_CLICK
+# ^UnDirSubText
+""
+# ^UnDirBrowseText
+Sori a folder pe yu wani puru na installatie fu $(^NameDA):
+# ^SpaceAvailable
+"Space available: "
+# ^SpaceRequired
+"Space required: "
+# ^UninstallingText
+$(^NameDA) installatie sa puru fu a folder disi. $_CLICK
+# ^UninstallingSubText
+Puru installatie fu:
+# ^FileError
+Error opening file for writing: \r\n\r\n$0\r\n\r\nKlik Abort fu stop na installatie,\r\nKlik Retry fu pruberi en baka, noso\r\nklik Ignore to skip this file.
+# ^FileError_NoIgnore
+Error opening file for writing: \r\n\r\n$0\r\n\r\nKlik Retry fu pruberi en baka, noso\r\nCancel fu stop na installatie.
+# ^CantWrite
+"Can't write: "
+# ^CopyFailed
+Copy no du bun
+# ^CopyTo
+"Copy go na "
+# ^Registering
+"Registering: "
+# ^Unregistering
+"Unregistering: "
+# ^SymbolNotFound
+"Could not find symbol: "
+# ^CouldNotLoad
+"Could not load: "
+# ^CreateFolder
+"Meki folder: "
+# ^CreateShortcut
+"Meki shortcut: "
+# ^CreatedUninstaller
+"Created uninstaller: "
+# ^Delete
+"Delete file: "
+# ^DeleteOnReboot
+"Delete on reboot: "
+# ^ErrorCreatingShortcut
+"Error creating shortcut: "
+# ^ErrorCreating
+"Error creating: "
+# ^ErrorDecompressing
+Error decompressing data! Corrupted installer?
+# ^ErrorRegistering
+Error registering DLL
+# ^ExecShell
+"ExecShell: "
+# ^Exec
+"Execute: "
+# ^Extract
+"Extract: "
+# ^ErrorWriting
+"Extract: error writing to file "
+# ^InvalidOpcode
+Installer corrupted: invalid opcode
+# ^NoOLE
+"No OLE for: "
+# ^OutputFolder
+"Output folder: "
+# ^RemoveFolder
+"Remove folder: "
+# ^RenameOnReboot
+"Rename on reboot: "
+# ^Rename
+"Rename: "
+# ^Skipped
+"Skipped: "
+# ^CopyDetails
+Copy Details To Clipboard
+# ^LogInstall
+Log install process
+# ^Byte
+B
+# ^Kilo
+K
+# ^Mega
+M
+# ^Giga
+G
