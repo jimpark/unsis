@@ -4,8 +4,8 @@
 !insertmacro LANGFILE "Cebuano" "Cebuano"
 
 !ifdef MUI_WELCOMEPAGE
-  ${LangFileString} MUI_TEXT_WELCOME_INFO_TITLE "Welcome sa $(^NameDA) Setup"
-  ${LangFileString} MUI_TEXT_WELCOME_INFO_TEXT "Giyahan ka niini nga Setup sa pag-install sa $(^NameDA).$\r$\n$\r$\nMas maayo kon imong isira ang tanang ubang aplikasyon sa dili pa sugdan ang Setup kay i-update niini ang importanteng mga system file nga dili kinahanglang i-reboot ang imong computer.$\r$\n$\r$\n$_CLICK"
+  ${LangFileString} MUI_TEXT_WELCOME_INFO_TITLE "Welcome sa Setup sa $(^NameDA)"
+  ${LangFileString} MUI_TEXT_WELCOME_INFO_TEXT "Giyahan ka niini nga Setup sa pag-install sa $(^NameDA).$\r$\n$\r$\nMas maayo kon imong i-close ang tanang ubang application sa dili pa sugdan ang Setup kay i-update niini ang importanteng mga system file nga dili kinahanglang i-reboot ang imong computer.$\r$\n$\r$\n$_CLICK"
 !endif
 
 !ifdef MUI_UNWELCOMEPAGE
@@ -14,52 +14,52 @@
 !endif
 
 !ifdef MUI_LICENSEPAGE
-  ${LangFileString} MUI_TEXT_LICENSE_TITLE "Kasabotan sa Lisensiya"
+  ${LangFileString} MUI_TEXT_LICENSE_TITLE "Kondisyones sa Lisensiya"
   ${LangFileString} MUI_TEXT_LICENSE_SUBTITLE "Palihog basaha ang kondisyones sa lisensiya sa dili pa nimo i-install ang $(^NameDA)."
-  ${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM "Kon mouyon ka sa kondisyones sa lisensiya, i-click ang Mouyon Ko aron makapadayon ka. Kinahanglang mouyon ka sa kasabotan aron ma-install ang $(^NameDA)."
-  ${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM_CHECKBOX "Kon mouyon ka sa kondisyones sa lisensiya, i-click ang check box sa ubos. Kinahanglang mouyon ka sa kasabotan aron ma-install ang $(^NameDA). $_CLICK"
-  ${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM_RADIOBUTTONS "Kon mouyon ka sa kondisyones sa lisensiya, pilia ang unang opsiyon sa ubos. Kinahanglang mouyon ka sa kasabotan aron ma-install ang $(^NameDA). $_CLICK"
+  ${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM "Kon mouyon ka sa kondisyones sa lisensiya, i-click ang Mouyon Ko aron makapadayon ka. Kinahanglang mouyon ka sa kondisyones aron ma-install ang $(^NameDA)."
+  ${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM_CHECKBOX "Kon mouyon ka sa kondisyones sa lisensiya, i-click ang check box sa ubos. Kinahanglang mouyon ka sa kondisyones aron ma-install ang $(^NameDA). $_CLICK"
+  ${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM_RADIOBUTTONS "Kon mouyon ka sa kondisyones sa lisensiya, pilia ang unang opsiyon sa ubos. Kinahanglang mouyon ka sa kondisyones aron ma-install ang $(^NameDA). $_CLICK"
 !endif
 
 !ifdef MUI_UNLICENSEPAGE
-  ${LangFileString} MUI_UNTEXT_LICENSE_TITLE "License Agreement"
-  ${LangFileString} MUI_UNTEXT_LICENSE_SUBTITLE "Please review the license terms before uninstalling $(^NameDA)."
-  ${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM "If you accept the terms of the agreement, click I Agree to continue. You must accept the agreement to uninstall $(^NameDA)."
-  ${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM_CHECKBOX "If you accept the terms of the agreement, click the check box below. You must accept the agreement to uninstall $(^NameDA). $_CLICK"
-  ${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM_RADIOBUTTONS "If you accept the terms of the agreement, select the first option below. You must accept the agreement to uninstall $(^NameDA). $_CLICK"
+  ${LangFileString} MUI_UNTEXT_LICENSE_TITLE "Kondisyones sa Lisensiya"
+  ${LangFileString} MUI_UNTEXT_LICENSE_SUBTITLE "Palihog basaha ang kondisyones sa lisensiya sa dili pa nimo i-uninstall ang $(^NameDA)."
+  ${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM "Kon mouyon ka sa kondisyones sa lisensiya, i-click ang Mouyon Ko aron makapadayon ka. Kinahanglang mouyon ka sa kondisyones aron ma-uninstall ang $(^NameDA)."
+  ${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM_CHECKBOX "Kon mouyon ka sa kondisyones sa lisensiya, i-click ang check box sa ubos. Kinahanglang mouyon ka sa kondisyones aron ma-uninstall ang $(^NameDA). $_CLICK"
+  ${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM_RADIOBUTTONS "Kon mouyon ka sa kondisyones sa lisensiya, pilia ang unang opsiyon sa ubos. Kinahanglang mouyon ka sa kondisyones aron ma-uninstall ang $(^NameDA). $_CLICK"
 !endif
 
 !ifdef MUI_LICENSEPAGE | MUI_UNLICENSEPAGE
-  ${LangFileString} MUI_INNERTEXT_LICENSE_TOP "I-Page Down aron imong mabasa ang ubang kondisyones sa kasabotan."
+  ${LangFileString} MUI_INNERTEXT_LICENSE_TOP "Tulpoka ang Page Down aron imong mabasa ang ubang kondisyones."
 !endif
 
 !ifdef MUI_COMPONENTSPAGE
-  ${LangFileString} MUI_TEXT_COMPONENTS_TITLE "Choose Components"
-  ${LangFileString} MUI_TEXT_COMPONENTS_SUBTITLE "Choose which features of $(^NameDA) you want to install."
+  ${LangFileString} MUI_TEXT_COMPONENTS_TITLE "Pagpilig mga Bahin"
+  ${LangFileString} MUI_TEXT_COMPONENTS_SUBTITLE "Pagpilig mga bahin sa $(^NameDA) nga gusto nimong i-install."
 !endif
 
 !ifdef MUI_UNCOMPONENTSPAGE
-  ${LangFileString} MUI_UNTEXT_COMPONENTS_TITLE "Choose Components"
-  ${LangFileString} MUI_UNTEXT_COMPONENTS_SUBTITLE "Choose which features of $(^NameDA) you want to uninstall."
+  ${LangFileString} MUI_UNTEXT_COMPONENTS_TITLE "Pagpilig mga Bahin"
+  ${LangFileString} MUI_UNTEXT_COMPONENTS_SUBTITLE "Pagpilig mga bahin sa $(^NameDA) nga gusto nimong i-uninstall."
 !endif
 
 !ifdef MUI_COMPONENTSPAGE | MUI_UNCOMPONENTSPAGE
-  ${LangFileString} MUI_INNERTEXT_COMPONENTS_DESCRIPTION_TITLE "Description"
+  ${LangFileString} MUI_INNERTEXT_COMPONENTS_DESCRIPTION_TITLE "Deskripsiyon"
   !ifndef NSIS_CONFIG_COMPONENTPAGE_ALTERNATIVE
-    ${LangFileString} MUI_INNERTEXT_COMPONENTS_DESCRIPTION_INFO "Position your mouse over a component to see its description."
+    ${LangFileString} MUI_INNERTEXT_COMPONENTS_DESCRIPTION_INFO "Ipatungod ang cursor sa mouse sa usa ka bahin aron makita ang deskripsiyon niini."
   !else
-    ${LangFileString} MUI_INNERTEXT_COMPONENTS_DESCRIPTION_INFO "Position your mouse over a component to see its description."
+    ${LangFileString} MUI_INNERTEXT_COMPONENTS_DESCRIPTION_INFO "Ipatungod ang cursor sa mouse sa usa ka bahin aron makita ang deskripsiyon niini."
   !endif
 !endif
 
 !ifdef MUI_DIRECTORYPAGE
-  ${LangFileString} MUI_TEXT_DIRECTORY_TITLE "Choose Install Location"
-  ${LangFileString} MUI_TEXT_DIRECTORY_SUBTITLE "Choose the folder in which to install $(^NameDA)."
+  ${LangFileString} MUI_TEXT_DIRECTORY_TITLE "Pagpilig Lokasyon sa Pag-install"
+  ${LangFileString} MUI_TEXT_DIRECTORY_SUBTITLE "Pilia ang folder nga i-install ang $(^NameDA)."
 !endif
 
 !ifdef MUI_UNDIRECTORYPAGE
-  ${LangFileString} MUI_UNTEXT_DIRECTORY_TITLE "Choose Uninstall Location"
-  ${LangFileString} MUI_UNTEXT_DIRECTORY_SUBTITLE "Choose the folder from which to uninstall $(^NameDA)."
+  ${LangFileString} MUI_UNTEXT_DIRECTORY_TITLE "Pagpilig Lokasyon sa Pag-uninstall"
+  ${LangFileString} MUI_UNTEXT_DIRECTORY_SUBTITLE "Pilia ang folder nga i-uninstall ang $(^NameDA)."
 !endif
 
 !ifdef MUI_INSTFILESPAGE
@@ -81,13 +81,13 @@
 !endif
 
 !ifdef MUI_FINISHPAGE
-  ${LangFileString} MUI_TEXT_FINISH_INFO_TITLE "Pagkompleto sa $(^NameDA) Setup"
+  ${LangFileString} MUI_TEXT_FINISH_INFO_TITLE "Pagkompleto sa Setup sa $(^NameDA)"
   ${LangFileString} MUI_TEXT_FINISH_INFO_TEXT "Ang $(^NameDA) na-install na sa imong computer.$\r$\n$\r$\nI-click ang Human Na aron ma-close ang Setup."
   ${LangFileString} MUI_TEXT_FINISH_INFO_REBOOT "I-restart ang imong computer aron makompleto ang pag-install sa $(^NameDA). I-reboot na ba nimo?"
 !endif
 
 !ifdef MUI_UNFINISHPAGE
-  ${LangFileString} MUI_UNTEXT_FINISH_INFO_TITLE "Pagkompleto sa $(^NameDA) Uninstall"
+  ${LangFileString} MUI_UNTEXT_FINISH_INFO_TITLE "Pagkompleto sa Pag-uninstall sa $(^NameDA)"
   ${LangFileString} MUI_UNTEXT_FINISH_INFO_TEXT "Ang $(^NameDA) na-uninstall na sa imong computer.$\r$\n$\r$\nI-click ang Human Na aron ma-close ang Setup."
   ${LangFileString} MUI_UNTEXT_FINISH_INFO_REBOOT "I-restart ang imong computer aron makompleto ang pag-uninstall sa $(^NameDA). I-reboot na ba nimo?"
 !endif
@@ -101,10 +101,10 @@
 !endif
 
 !ifdef MUI_STARTMENUPAGE
-  ${LangFileString} MUI_TEXT_STARTMENU_TITLE "Choose Start Menu Folder"
-  ${LangFileString} MUI_TEXT_STARTMENU_SUBTITLE "Choose a Start Menu folder for the $(^NameDA) shortcuts."
-  ${LangFileString} MUI_INNERTEXT_STARTMENU_TOP "Select the Start Menu folder in which you would like to create the program's shortcuts. You can also enter a name to create a new folder."
-  ${LangFileString} MUI_INNERTEXT_STARTMENU_CHECKBOX "Do not create shortcuts"
+  ${LangFileString} MUI_TEXT_STARTMENU_TITLE "Pagpilig Folder sa Start Menu"
+  ${LangFileString} MUI_TEXT_STARTMENU_SUBTITLE "Pagpilig folder sa Start Menu para sa shortcut sa $(^NameDA)."
+  ${LangFileString} MUI_INNERTEXT_STARTMENU_TOP "Pagpilig folder sa Start Menu nga imong butangag mga shortcut sa program. Makagama ka usab ug ngalan sa paghimog bag-ong folder."
+  ${LangFileString} MUI_INNERTEXT_STARTMENU_CHECKBOX "Ayaw paghimog mga shortcut"
 !endif
 
 !ifdef MUI_UNCONFIRMPAGE
@@ -113,11 +113,11 @@
 !endif
 
 !ifdef MUI_ABORTWARNING
-  ${LangFileString} MUI_TEXT_ABORTWARNING "Imo ba gyong hunongon ang $(^Name) Setup?"
+  ${LangFileString} MUI_TEXT_ABORTWARNING "Imo ba gyong hunongon ang Setup sa $(^Name)?"
 !endif
 
 !ifdef MUI_UNABORTWARNING
-  ${LangFileString} MUI_UNTEXT_ABORTWARNING "Imo ba gyong hunongon ang $(^Name) Uninstall?"
+  ${LangFileString} MUI_UNTEXT_ABORTWARNING "Imo ba gyong hunongon ang Pag-uninstall sa $(^Name)?"
 !endif
 
 !ifdef MULTIUSER_INSTALLMODEPAGE

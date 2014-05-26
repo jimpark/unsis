@@ -1,7 +1,7 @@
 ;Language: Kirghiz (1088)
 ;Translation updated by Baktybek Erkinbaev [berkinba@kgz.wtbts.net] (050424)
 
-!insertmacro LANGFILE "Кыргызча"
+!insertmacro LANGFILE "Kirghiz" "Кыргызча"
 
 !ifdef MUI_WELCOMEPAGE
   ${LangFileString} MUI_TEXT_WELCOME_INFO_TITLE "Бул программа $(^NameDA) программасын компьютериңизге орнотот"

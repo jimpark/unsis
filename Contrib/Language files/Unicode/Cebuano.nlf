@@ -18,7 +18,7 @@ $(^Name) Setup
 # ^UninstallCaption
 $(^Name) Uninstall
 # ^LicenseSubCaption
-: Kasabotan sa Lisensiya
+: Kondisyones sa Lisensiya
 # ^ComponentsSubCaption
 : Opsiyon sa Pag-install
 # ^DirSubCaption
@@ -38,19 +38,19 @@ $(^Name) Uninstall
 # ^UnCompletedSubCaption
 : Nakompleto
 # ^BackBtn
-< &Balik
+< &Atras
 # ^NextBtn
-&Sunod >
+&Abante >
 # ^AgreeBtn
 Mouyon &Ko
 # ^AcceptBtn
-Mouyon &ko sa kondisyones sa Kasabotan sa Lisensiya
+Mouyon &ko sa Kondisyones sa Lisensiya
 # ^DontAcceptBtn
-Dili &ko mouyon sa kondisyones sa Kasabotan sa Lisensiya
+Dili &ko mouyon sa Kondisyones sa Lisensiya
 # ^InstallBtn
-&Install
+&I-install
 # ^UninstallBtn
-&Uninstall
+&I-uninstall
 # ^CancelBtn
 I-cancel
 # ^CloseBtn
@@ -60,27 +60,27 @@ I-&browse...
 # ^ShowDetailsBtn
 Ipakita ang &detalye
 # ^ClickNext
-I-click ang Sunod aron makapadayon.
+I-click ang Abante aron makapadayon.
 # ^ClickInstall
-I-click ang Install aron masugdan ang pag-install.
+I-click ang I-install aron masugdan ang pag-install.
 # ^ClickUninstall
-I-click ang Uninstall aron masugdan ang pag-uninstall.
+I-click ang I-uninstall aron masugdan ang pag-uninstall.
 # ^Name
 Ngalan
 # ^Completed
 Nakompleto
 # ^LicenseText
-Palihog basaha ang kasabotan sa lisensiya sa dili pa nimo i-install ang $(^NameDA). Kon mouyon ka sa tanang kondisyones sa kasabotan, i-click ang Mouyon Ko.
+Palihog basaha ang kondisyones sa lisensiya sa dili pa nimo i-install ang $(^NameDA). Kon mouyon ka sa tanang kondisyones, i-click ang Mouyon Ko.
 # ^LicenseTextCB
-Palihog basaha ang kasabotan sa lisensiya sa dili pa nimo i-install ang $(^NameDA). Kon mouyon ka sa tanang kondisyones sa kasabotan, i-click ang kahon sa ubos. $_CLICK
+Palihog basaha ang kondisyones sa lisensiya sa dili pa nimo i-install ang $(^NameDA). Kon mouyon ka sa tanang kondisyones, i-click ang kahon sa ubos. $_CLICK
 # ^LicenseTextRB
-Palihog basaha ang kasabotan sa lisensiya sa dili pa nimo i-install ang $(^NameDA). Kon mouyon ka sa tanang kondisyones sa kasabotan, i-click ang unang opsiyon sa ubos. $_CLICK
+Palihog basaha ang kondisyones sa lisensiya sa dili pa nimo i-install ang $(^NameDA). Kon mouyon ka sa tanang kondisyones, i-click ang unang opsiyon sa ubos. $_CLICK
 # ^UnLicenseText
-Palihog basaha ang kasabotan sa lisensiya sa dili pa nimo i-uninstall ang $(^NameDA). Kon mouyon ka sa tanang kondisyones sa kasabotan, i-click ang Mouyon Ko.
+Palihog basaha ang kondisyones sa lisensiya sa dili pa nimo i-uninstall ang $(^NameDA). Kon mouyon ka sa tanang kondisyones, i-click ang Mouyon Ko.
 # ^UnLicenseTextCB
-Palihog basaha ang kasabotan sa lisensiya sa dili pa nimo i-uninstall ang $(^NameDA). Kon mouyon ka sa tanang kondisyones sa kasabotan, i-click ang kahon sa ubos. $_CLICK
+Palihog basaha ang kondisyones sa lisensiya sa dili pa nimo i-uninstall ang $(^NameDA). Kon mouyon ka sa tanang kondisyones, i-click ang kahon sa ubos. $_CLICK
 # ^UnLicenseTextRB
-Palihog basaha ang kasabotan sa lisensiya sa dili pa nimo i-uninstall ang $(^NameDA). Kon mouyon ka sa tanang kondisyones sa kasabotan, i-click ang unang opsiyon sa ubos. $_CLICK
+Palihog basaha ang kondisyones sa lisensiya sa dili pa nimo i-uninstall ang $(^NameDA). Kon mouyon ka sa tanang kondisyones, i-click ang unang opsiyon sa ubos. $_CLICK
 # ^Custom
 Custom
 # ^ComponentsText
@@ -120,9 +120,9 @@ Ang $(^NameDA) i-uninstall gikan niini nga folder. $_CLICK
 # ^UninstallingSubText
 Nag-uninstall gikan sa:
 # ^FileError
-Dili ma-open ang file kay nagkopya: \r\n\r\n$0\r\n\r\nI-click ang Abort aron mahunong ang pag-install,\r\nRetry aron sulayan pag-usab, o\r\nIgnore aron laktawan kini nga file.
+Dili ma-open ang file kay nagkopya: \r\n\r\n$0\r\n\r\nI-click ang I-abort aron mahunong ang pag-install,\r\nI-retry aron sulayan pag-usab, o\r\nIgnore aron laktawan kini nga file.
 # ^FileError_NoIgnore
-Dili ma-open ang file kay nagkopya: \r\n\r\n$0\r\n\r\nI-click ang Retry aron sulayan pag-usab, o\r\nCancel aron mahunong ang pag-install.
+Dili ma-open ang file kay nagkopya: \r\n\r\n$0\r\n\r\nI-click ang I-retry aron sulayan pag-usab, o\r\nI-cancel aron mahunong ang pag-install.
 # ^CantWrite
 "Dili makakopya: "
 # ^CopyFailed
@@ -158,11 +158,11 @@ Error sa pag-register sa DLL
 # ^ExecShell
 "ExecShell: "
 # ^Exec
-"Execute: "
+"I-execute: "
 # ^Extract
-"Extract: "
+"I-extract: "
 # ^ErrorWriting
-"Extract: error sa pagkopya sa file "
+"I-extract: error sa pagkopya sa file "
 # ^InvalidOpcode
 Na-corrupt ang installer: dili madawat nga opcode
 # ^NoOLE

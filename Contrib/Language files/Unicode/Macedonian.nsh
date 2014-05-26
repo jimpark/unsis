@@ -1,5 +1,5 @@
 ;Language: Macedonian (1071)
-;By Sasko Zdravkin [wingman2083@yahoo.com]
+;By ХХХ
 
 !insertmacro LANGFILE "Macedonian" "Македонски"
 
@@ -16,7 +16,7 @@
 !ifdef MUI_LICENSEPAGE
   ${LangFileString} MUI_TEXT_LICENSE_TITLE "Договор за лиценца"
   ${LangFileString} MUI_TEXT_LICENSE_SUBTITLE "Ве молиме прочитајте го Договорот за лиценца пред да ја инсталирате програмата $(^NameDA)."
-  ${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM "Ако ги прифаќате условите од Договорот, притиснете ,Се согласувам‘ за да продолжите. Морате да го прифатите Договорот за да ја инсталирате програмата $(^NameDA)."
+  ${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM "Ако ги прифаќате условите од Договорот, притиснете „Прифаќам“ за да продолжите. Морате да го прифатите Договорот за да ја инсталирате програмата $(^NameDA)."
   ${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM_CHECKBOX "Ако ги прифаќате условите од Договорот, означете го квадратчето подолу. Морате да го прифатите Договорот за да ја инсталирате програмата $(^NameDA). $_CLICK"
   ${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM_RADIOBUTTONS "Ако ги прифаќате условите од Договорот, одберете ја првата опција подолу. Морате да го прифатите Договорот за да ја инсталирате програмата $(^NameDA). $_CLICK"
 !endif
@@ -24,13 +24,13 @@
 !ifdef MUI_UNLICENSEPAGE
   ${LangFileString} MUI_UNTEXT_LICENSE_TITLE "Договор за лиценца"
   ${LangFileString} MUI_UNTEXT_LICENSE_SUBTITLE "Ве молиме прочитајте го Договорот за лиценца пред да ја деинсталирате програмата $(^NameDA)."
-  ${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM "Ако ги прифаќате условите од Договорот, притиснете ,Се согласувам‘ за да продолжите. Морате да го прифатите Договорот за да ја деинсталирате програмата $(^NameDA)."
+  ${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM "Ако ги прифаќате условите од Договорот, притиснете „Прифаќам“ за да продолжите. Морате да го прифатите Договорот за да ја деинсталирате програмата $(^NameDA)."
   ${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM_CHECKBOX "Ако ги прифаќате условите од Договорот, означете го квадратчето подолу. Морате да го прифатите Договорот за да ја деинсталирате програмата $(^NameDA). $_CLICK"
   ${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM_RADIOBUTTONS "Ако ги прифаќате условите од Договорот, одберете ја првата опција подолу. Морате да го прифатите Договорот за да ја деинсталирате програмата $(^NameDA). $_CLICK"
 !endif
 
 !ifdef MUI_LICENSEPAGE | MUI_UNLICENSEPAGE
-  ${LangFileString} MUI_INNERTEXT_LICENSE_TOP "Притиснете ,Следна страница‘ за да го прочитате останатиот дел од Договорот."
+  ${LangFileString} MUI_INNERTEXT_LICENSE_TOP "Притиснете „Page Down“ за да го прочитате останатиот дел од Договорот."
 !endif
 
 !ifdef MUI_COMPONENTSPAGE
@@ -82,13 +82,13 @@
 
 !ifdef MUI_FINISHPAGE
   ${LangFileString} MUI_TEXT_FINISH_INFO_TITLE "Завршено е инсталирањето на програмата $(^NameDA)"
-  ${LangFileString} MUI_TEXT_FINISH_INFO_TEXT "$(^NameDA) е инсталирана на вашиот компјутер.$\r$\n$\r$\nПритиснете ,Крај‘ за да го завршите инсталирањето."
+  ${LangFileString} MUI_TEXT_FINISH_INFO_TEXT "$(^NameDA) е инсталирана на вашиот компјутер.$\r$\n$\r$\nПритиснете „Крај“ за да го завршите инсталирањето."
   ${LangFileString} MUI_TEXT_FINISH_INFO_REBOOT "Вашиот компјутер мора да се рестартира за да заврши инсталирањето на програмата $(^NameDA). Дали сакате да го рестартирате сега?"
 !endif
 
 !ifdef MUI_UNFINISHPAGE
   ${LangFileString} MUI_UNTEXT_FINISH_INFO_TITLE "Завршено е деинсталирањето на програмата $(^NameDA)"
-  ${LangFileString} MUI_UNTEXT_FINISH_INFO_TEXT "$(^NameDA) е деинсталирана од вашиот компјутер.$\r$\n$\r$\nПритиснете ,Крај‘ за да го завршите деинсталирањето."
+  ${LangFileString} MUI_UNTEXT_FINISH_INFO_TEXT "$(^NameDA) е деинсталирана од вашиот компјутер.$\r$\n$\r$\nПритиснете „Крај“ за да го завршите деинсталирањето."
   ${LangFileString} MUI_UNTEXT_FINISH_INFO_REBOOT "Вашиот компјутер мора да се рестартира за да заврши деинсталирањето на програмата $(^NameDA). Дали сакате да го рестартирате сега?"
 !endif
 

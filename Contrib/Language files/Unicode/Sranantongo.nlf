@@ -14,173 +14,173 @@ NLF v6
 # ^Branding
 Nullsoft Install System %s
 # ^SetupCaption
-$(^Name) Setup
+$(^Name)—Poti en tapu a computer
 # ^UninstallCaption
-$(^Name) Puru na installatie
+$(^Name)—Puru en fu a computer
 # ^LicenseSubCaption
-: License Agreement
+: Den reti di yu abi
 # ^ComponentsSubCaption
-: Installatie Options
+: San yu kan poti tapu a computer 
 # ^DirSubCaption
-: Na ini sortu folder yu wani installeer
+: Na ini sortu folder yu wani poti den file
 # ^InstallingSubCaption
-: A e installeer
+: A e poti a programa tapu a computer
 # ^CompletedSubCaption
 : A kaba
 # ^UnComponentsSubCaption
-: Puru installatie Options
+: San yu kan puru fu a programa
 # ^UnDirSubCaption
-: Puru installatie Folder
+: Puru a folder pe den file poti
 # ^ConfirmSubCaption
-: Confirmation
+: Puru en trutru
 # ^UninstallingSubCaption
-: A e puru na installatie
+: A e puru a programa
 # ^UnCompletedSubCaption
 : A kaba
 # ^BackBtn
-< &Wan na fesi
+< &Go baka
 # ^NextBtn
 &Trawan >
 # ^AgreeBtn
 Mi e &agri
 # ^AcceptBtn
-Mi e &agri nanga License Agreement
+Mi e &agri nanga Den reti di mi abi
 # ^DontAcceptBtn
-Mi &no e agri nanga License Agreement
+Mi &no e agri nanga Den reti di mi abi
 # ^InstallBtn
-&Installeer
+&Poti en
 # ^UninstallBtn
-&Puru installatie
+&Puru en
 # ^CancelBtn
-Cancel
+Du noti
 # ^CloseBtn
 &Tapu
 # ^BrowseBtn
-B&rowse...
+S&uku sani...
 # ^ShowDetailsBtn
-Sori &details
+Sori &moro tori
 # ^ClickNext
-Klik Next fu go doro.
+Klik Trawan fu go doro.
 # ^ClickInstall
-Klik Install fu bigin na installatie.
+Klik Poti en fu poti a programa tapu a computer.
 # ^ClickUninstall
-Klik Uninstall fu puru na installatie.
+Klik Puru en fu puru a programa fu a computer.
 # ^Name
 Nen
 # ^Completed
 A kaba
 # ^LicenseText
-Leisi a license agreement fosi yu installeer $(^NameDA). Efu yu e agri, dan klik Mi e agri.
+Leisi na artikel Den reti di yu abi fosi yu poti $(^NameDA) tapu a computer. Efu yu e agri, dan klik Mi e agri.
 # ^LicenseTextCB
-Leisi a license agreement fosi yu installeer $(^NameDA). Efu yu e agri, dan klik Mi e agri. $_CLICK
+Leisi na artikel Den reti di yu abi fosi yu poti $(^NameDA) tapu a computer. Efu yu e agri, dan klik Mi e agri. $_CLICK
 # ^LicenseTextRB
-Leisi a license agreement fosi yu installeer $(^NameDA). Efu yu e agri, dan klik a fosi option na ondrosei. $_CLICK
+Leisi na artikel Den reti di yu abi fosi yu poti $(^NameDA) tapu a computer. Efu yu e agri, dan klik a fosi option na ondrosei. $_CLICK
 # ^UnLicenseText
-Leisi a license agreement fosi yu puru na installatie $(^NameDA). Efu yu e agri, dan klik Mi e agri.
+Leisi na artikel Den reti di yu abi fosi yu puru $(^NameDA) fu a computer. Efu yu e agri, dan klik Mi e agri.
 # ^UnLicenseTextCB
-Leisi a license agreement fosi yu puru na installatie $(^NameDA). Efu yu e agri, dan klik a fosi option na ondrosei. $_CLICK
+Leisi na artikel Den reti di yu abi fosi yu puru $(^NameDA) fu a computer. Efu yu e agri, dan klik a fosi option na ondrosei. $_CLICK
 # ^UnLicenseTextRB
-Leisi a license agreement fosi yu puru na installatie $(^NameDA). Efu yu e agri dan klik a fosi option na ondrosei. $_CLICK
+Leisi na artikel Den reti di yu abi fosi yu puru $(^NameDA) fu a computer. Efu yu e agri, dan klik a fosi option na ondrosei. $_CLICK
 # ^Custom
-Custom
+Selecteer san yu wani poti tapu a computer, noso san yu wani puru
 # ^ComponentsText
-Check den pisi di yu wani installer èn no check den pisi di yu no wani installeer. $_CLICK
+Check den sani di yu wani poti tapu a computer, ma no check den sani di yu no wani poti. $_CLICK
 # ^ComponentsSubText1
-Select fa yu wani installeer:
+Select fa yu wani poti den sani tapu a computer:
 # ^ComponentsSubText2_NoInstTypes
-Sori den pisi di yu wani installeer:
+Sori den sani di yu wani poti tapu a computer:
 # ^ComponentsSubText2
-Noso sori den tra pisi di yu wani installeer:
+Noso sori den tra sani di yu wani poti tapu a computer:
 # ^UnComponentsText
-Check den pisi di yu wani puru èn no check den pisi di yu no wani puru. $_CLICK
+Check den sani di yu wani puru, ma no check den sani di yu no wani puru. $_CLICK
 # ^UnComponentsSubText1
-Sori fa yu wani puru na installatie:
+Sori fa yu wani puru a programa:
 # ^UnComponentsSubText2_NoInstTypes
-Sori den pisi di yu wani puru:
+Sori den sani di yu wani puru:
 # ^UnComponentsSubText2
-Noso sori den tra pisi di yu wani puru fu na installatie:
+Noso sori den tra sani di yu wani puru fu a programa:
 # ^DirText
-Na installatie fu $(^NameDA) sa poti na ini a folder disi. Efu yu wani poti en na ini wan tra folder, dan click Browse èn suku wan tra folder. $_CLICK
+Den file fu $(^NameDA) o poti na ini a folder disi. Efu yu wani poti den na ini wan tra folder, dan klik ... èn suku wan tra folder. $_CLICK
 # ^DirSubText
-Folder pe a musu de
+Folder pe den file o poti
 # ^DirBrowseText
-Sori a folder pe yu wani installeer $(^NameDA):
+Sori a folder pe yu wani poti den file $(^NameDA):
 # ^UnDirText
-Na installatie fu $(^NameDA) sa puru na ini a folder disi. Efu yu wani puru na installatie fu wan tra folder, dan klik Browse èn sori wan tra folder. $_CLICK
+Den file fu fu $(^NameDA) o puru fu a folder disi. Efu yu wani puru den file fu wan tra folder, dan klik ... èn sori wan tra folder. $_CLICK
 # ^UnDirSubText
 ""
 # ^UnDirBrowseText
-Sori a folder pe yu wani puru na installatie fu $(^NameDA):
+Sori a folder fu pe yu wani puru den file fu $(^NameDA):
 # ^SpaceAvailable
-"Space available: "
+"O furu presi yu abi tapu a computer: "
 # ^SpaceRequired
-"Space required: "
+"O furu presi yu musu abi tapu a computer: "
 # ^UninstallingText
-$(^NameDA) installatie sa puru fu a folder disi. $_CLICK
+$(^NameDA) file o puru fu a folder disi. $_CLICK
 # ^UninstallingSubText
-Puru installatie fu:
+Puru den file fu:
 # ^FileError
-Error opening file for writing: \r\n\r\n$0\r\n\r\nKlik Abort fu stop na installatie,\r\nKlik Retry fu pruberi en baka, noso\r\nklik Ignore to skip this file.
+Wan sani no bun nanga a file disi: \r\n\r\n$0\r\n\r\nKlik Tapu, klik\r\nPruberi en baka, noso klik\r\nLibi a file disi.
 # ^FileError_NoIgnore
-Error opening file for writing: \r\n\r\n$0\r\n\r\nKlik Retry fu pruberi en baka, noso\r\nCancel fu stop na installatie.
+Wan sani no bun nanga a file disi: \r\n\r\n$0\r\n\r\nKlik Pruberi en baka, noso klik\r\nDu noti.
 # ^CantWrite
-"Can't write: "
+"No man kenki a file: "
 # ^CopyFailed
-Copy no du bun
+A file no kopieer bun
 # ^CopyTo
-"Copy go na "
+"Kopieer go na "
 # ^Registering
-"Registering: "
+"Poti na ini a registry: "
 # ^Unregistering
-"Unregistering: "
+"Puru fu a registry: "
 # ^SymbolNotFound
-"Could not find symbol: "
+"No man feni a sani disi: "
 # ^CouldNotLoad
-"Could not load: "
+"No man opo: "
 # ^CreateFolder
 "Meki folder: "
 # ^CreateShortcut
 "Meki shortcut: "
 # ^CreatedUninstaller
-"Created uninstaller: "
+"Meki a programa di o puru den file: "
 # ^Delete
-"Delete file: "
+"Puru file: "
 # ^DeleteOnReboot
-"Delete on reboot: "
+"Puru file baka te a computer leti baka: "
 # ^ErrorCreatingShortcut
-"Error creating shortcut: "
+"No man meki shortcut: "
 # ^ErrorCreating
-"Error creating: "
+"No man meki: "
 # ^ErrorDecompressing
-Error decompressing data! Corrupted installer?
+No man decompress son file! Wan sani no bun nanga a programa?
 # ^ErrorRegistering
-Error registering DLL
+A DLL no man seti na ini a registry
 # ^ExecShell
 "ExecShell: "
 # ^Exec
-"Execute: "
+"Du: "
 # ^Extract
-"Extract: "
+"Puru file: "
 # ^ErrorWriting
-"Extract: error writing to file "
+"Puru file: no man kenki wan fu den file "
 # ^InvalidOpcode
-Installer corrupted: invalid opcode
+Wan sani no bun nanga a programa: kruktu opcode
 # ^NoOLE
-"No OLE for: "
+"OLE no de gi: "
 # ^OutputFolder
-"Output folder: "
+"Folder pe den file o poti: "
 # ^RemoveFolder
-"Remove folder: "
+"Puru a folder: "
 # ^RenameOnReboot
-"Rename on reboot: "
+"Gi a file wan tra nen baka te a computer leti baka: "
 # ^Rename
-"Rename: "
+"Gi a file wan tra nen: "
 # ^Skipped
-"Skipped: "
+"No du noti nanga den file disi: "
 # ^CopyDetails
-Copy Details To Clipboard
+Kopieer wan tu sani na a Clipboard
 # ^LogInstall
-Log install process
+Save wan tu sani fu a fasi fa a programa poti tapu a computer
 # ^Byte
 B
 # ^Kilo
