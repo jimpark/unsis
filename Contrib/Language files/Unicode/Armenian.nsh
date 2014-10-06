@@ -5,7 +5,7 @@
 
 !ifdef MUI_WELCOMEPAGE
   ${LangFileString} MUI_TEXT_WELCOME_INFO_TITLE "Ձեզ ողջունում է $(^NameDA) տեղակայիչը"
-  ${LangFileString} MUI_TEXT_WELCOME_INFO_TEXT "Այս ծրագիրը կտեղակայի $(^NameDA)-ը Ձեր համակարգչում։$\r$\n$\r$\nԽորհուրդ ենք տալիս փակել բոլոր աշխատող ծրագրերը։ Դա հնարավորություն կտա տեղակայումից հետո խուսափել համակարգչի վերամեկնարկումից։$\r$\n$\r$\n$_CLICK"
+  ${LangFileString} MUI_TEXT_WELCOME_INFO_TEXT "Այս ծրագիրը կտեղադրվի $(^NameDA)-ը Ձեր համակարգչում։$\r$\n$\r$\nԽորհուրդ ենք տալիս փակել բոլոր աշխատող ծրագրերը։ Դա հնարավորություն կտա տեղադրումից հետո խուսափել համակարգչի վերամեկնարկումից։$\r$\n$\r$\n$_CLICK"
 !endif
 
 !ifdef MUI_UNWELCOMEPAGE
@@ -14,19 +14,19 @@
 !endif
 
 !ifdef MUI_LICENSEPAGE
-  ${LangFileString} MUI_TEXT_LICENSE_TITLE "Լիցենզային համաձայնություն"
-  ${LangFileString} MUI_TEXT_LICENSE_SUBTITLE "$(^NameDA)-ը տեղակայելուց առաջ ծանոթացեք լիցենզային համաձայնությանը։"
-  ${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM "Եթե ընդունում եք համաձայնությունը, ապա սեղմեք $\"Համաձայն եմ$\"։$\r$\nԾրագիրը տեղակայելու համար պետք է ընդունեք համաձայնությունը։"
-  ${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM_CHECKBOX "Եթե ընդունում եք համաձայնությունը դրեք նիշը ներքևում։ Ծրագիրը տեղակայելու համար պետք է ընդունեք համաձայնությունը։ $_CLICK"
-  ${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM_RADIOBUTTONS "Եթե ընդունում եք համաձայնությունը, ընտրեք ներքոնշյալներից առաջինը։ Ծրագիրը տեղակայելու համար պետք է ընդունեք համաձայնությունը։ $_CLICK"
+  ${LangFileString} MUI_TEXT_LICENSE_TITLE "Լիցենզավորման համաձայնագիր"
+  ${LangFileString} MUI_TEXT_LICENSE_SUBTITLE "$(^NameDA)-ը տեղադրելուց առաջ ծանոթացեք լիցենզավորման համաձայնագրին։"
+  ${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM "Եթե ընդունում եք համաձայնագիրը, ապա սեղմեք $\"Համաձայն եմ$\"։$\r$\nԾրագիրը տեղադրելու համար պետք է ընդունեք համաձայնագիրը։"
+  ${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM_CHECKBOX "Եթե ընդունում եք համաձայնագիրը, դրեք նիշը ներքևում։ Ծրագիրը տեղադրելու համար պետք է ընդունեք համաձայնագիրը։ $_CLICK"
+  ${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM_RADIOBUTTONS "Եթե ընդունում եք համաձայնագիրը, ընտրեք ներքոնշյալներից առաջինը։ Ծրագիրը տեղադրելու համար պետք է ընդունեք համաձայնագիրը։ $_CLICK"
 !endif
 
 !ifdef MUI_UNLICENSEPAGE
-  ${LangFileString} MUI_UNTEXT_LICENSE_TITLE "Լիցենզային համաձայնություն"
-  ${LangFileString} MUI_UNTEXT_LICENSE_SUBTITLE "$(^NameDA)-ը ջնջելուց առաջ ծանոթացեք լիցենզային համաձայնությանը։"
-  ${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM "Եթե ընդունում եք համաձայնությունը, սեղմեք $\"Համաձայն եմ$\" կոճակը։ Ջնջելու համար պետք է ընդունեք համաձայնությունը։ $_CLICK"
-  ${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM_CHECKBOX "Եթե ընդունում եք համաձայնությունը, դրեք նիշը ներքևում։ Ջնջելու համար պետք է ընդունեք համաձայնությունը։ $_CLICK"
-  ${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM_RADIOBUTTONS "Եթե ընդունում եք համաձայնությունը, ընտրեք ներքոնշյալներից առաջինը։ Ջնջելու համար պետք է ընդունեք համաձայնությունը։  $_CLICK"
+  ${LangFileString} MUI_UNTEXT_LICENSE_TITLE "Լիցենզավորման համաձայնագիր"
+  ${LangFileString} MUI_UNTEXT_LICENSE_SUBTITLE "$(^NameDA)-ը ջնջելուց առաջ ծանոթացեք լիցենզավորման համաձայնագրին։"
+  ${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM "Եթե ընդունում եք համաձայնագիրը, սեղմեք $\"Համաձայն եմ$\" կոճակը։ Ջնջելու համար պետք է ընդունեք համաձայնագիրը։ $_CLICK"
+  ${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM_CHECKBOX "Եթե ընդունում եք համաձայնագիրը, դրեք նիշը ներքևում։ Ջնջելու համար պետք է ընդունեք համաձայնագիրը։ $_CLICK"
+  ${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM_RADIOBUTTONS "Եթե ընդունում եք համաձայնագիրը, ընտրեք ներքոնշյալներից առաջինը։ Ջնջելու համար պետք է ընդունեք համաձայնագիրը։  $_CLICK"
 !endif
 
 !ifdef MUI_LICENSEPAGE | MUI_UNLICENSEPAGE
@@ -34,8 +34,8 @@
 !endif
 
 !ifdef MUI_COMPONENTSPAGE
-  ${LangFileString} MUI_TEXT_COMPONENTS_TITLE "Տեղակայվող ծրագրի բաղադրիչները"
-  ${LangFileString} MUI_TEXT_COMPONENTS_SUBTITLE "Ընտրեք $(^NameDA)-ի բաղադրիչները, որոնք ցանկանում եք տեղակայել։"
+  ${LangFileString} MUI_TEXT_COMPONENTS_TITLE "Տեղադրվող ծրագրի բաղադրիչները"
+  ${LangFileString} MUI_TEXT_COMPONENTS_SUBTITLE "Ընտրեք $(^NameDA)-ի բաղադրիչները, որոնք ցանկանում եք տեղադրել։"
 !endif
 
 !ifdef MUI_UNCOMPONENTSPAGE
@@ -53,22 +53,22 @@
 !endif
 
 !ifdef MUI_DIRECTORYPAGE
-  ${LangFileString} MUI_TEXT_DIRECTORY_TITLE "Տեղակայման թղթապանակի ընտրություն"
-  ${LangFileString} MUI_TEXT_DIRECTORY_SUBTITLE "Ընտրեք թղթապանակը, որտեղ կտեղակայվի $(^NameDA)-ը։"
+  ${LangFileString} MUI_TEXT_DIRECTORY_TITLE "Տեղադրման կատալոգի ընտրություն"
+  ${LangFileString} MUI_TEXT_DIRECTORY_SUBTITLE "Ընտրեք կատալոգը, որտեղ կտեղադրվի $(^NameDA)-ը։"
 !endif
 
 !ifdef MUI_UNDIRECTORYPAGE
-  ${LangFileString} MUI_UNTEXT_DIRECTORY_TITLE "Ջնջման թղթապանակի ընտրություն"
-  ${LangFileString} MUI_UNTEXT_DIRECTORY_SUBTITLE "Ընտրեք թղթապանակը, որտեղից պետք է ջնջել $(^NameDA)-ը։"
+  ${LangFileString} MUI_UNTEXT_DIRECTORY_TITLE "Ջնջման կատալոգի ընտրություն"
+  ${LangFileString} MUI_UNTEXT_DIRECTORY_SUBTITLE "Ընտրեք կատալոգը, որտեղից պետք է ջնջել $(^NameDA)-ը։"
 !endif
 
 !ifdef MUI_INSTFILESPAGE
   ${LangFileString} MUI_TEXT_INSTALLING_TITLE "Ֆայլերը պատճենվում են"
   ${LangFileString} MUI_TEXT_INSTALLING_SUBTITLE "Սպասեք, ընթանում է $(^NameDA)-ի ֆայլերի պատճենումը..."
-  ${LangFileString} MUI_TEXT_FINISH_TITLE "Տեղակայումը ավարտվեց"
-  ${LangFileString} MUI_TEXT_FINISH_SUBTITLE "Տեղակայումը ավարտվեց հաջողությամբ։"
-  ${LangFileString} MUI_TEXT_ABORT_TITLE "Տեղակայումը ընդհատվել է։"
-  ${LangFileString} MUI_TEXT_ABORT_SUBTITLE "Տեղակայումը չի ավարտվել։"
+  ${LangFileString} MUI_TEXT_FINISH_TITLE "Տեղադրումը ավարտվեց"
+  ${LangFileString} MUI_TEXT_FINISH_SUBTITLE "Տեղադրումը ավարտվեց հաջողությամբ։"
+  ${LangFileString} MUI_TEXT_ABORT_TITLE "Տեղադրումը ընդհատվել է։"
+  ${LangFileString} MUI_TEXT_ABORT_SUBTITLE "Տեղադրումը չի ավարտվել։"
 !endif
 
 !ifdef MUI_UNINSTFILESPAGE
@@ -81,9 +81,9 @@
 !endif
 
 !ifdef MUI_FINISHPAGE
-  ${LangFileString} MUI_TEXT_FINISH_INFO_TITLE "$(^NameDA)-ի տեղակայման աշխատանքի ավարտում"
-  ${LangFileString} MUI_TEXT_FINISH_INFO_TEXT "$(^NameDA)-ը տեղակայվեց։$\r$\n$\r$\nՍեղմեք $\"Ավարտել$\" կոճակը՝ տեղակայիչը փակելու համար։"
-  ${LangFileString} MUI_TEXT_FINISH_INFO_REBOOT "$(^NameDA)-ի տեղակայումը ավարտելու համար պահանջվում է համակարգչի վերամեկնարկում։ Վերամեկնարկե՞լ։"
+  ${LangFileString} MUI_TEXT_FINISH_INFO_TITLE "$(^NameDA)-ի տեղադրման աշխատանքի ավարտում"
+  ${LangFileString} MUI_TEXT_FINISH_INFO_TEXT "$(^NameDA)-ը տեղադրվեց։$\r$\n$\r$\nՍեղմեք $\"Ավարտել$\" կոճակը՝ տեղակայիչը փակելու համար։"
+  ${LangFileString} MUI_TEXT_FINISH_INFO_REBOOT "$(^NameDA)-ի տեղադրումը ավարտելու համար պահանջվում է համակարգչի վերամեկնարկում։ Վերամեկնարկե՞լ։"
 !endif
 
 !ifdef MUI_UNFINISHPAGE
@@ -101,9 +101,9 @@
 !endif
 
 !ifdef MUI_STARTMENUPAGE
-  ${LangFileString} MUI_TEXT_STARTMENU_TITLE "Թղթապանակ՝ $\"Start$\" ընտրացանկում"
-  ${LangFileString} MUI_TEXT_STARTMENU_SUBTITLE "Ընտրեք $\"Start$\"-ի թղթապանակը՝ ծրագրի պիտակների համար"
-  ${LangFileString} MUI_INNERTEXT_STARTMENU_TOP "Ընտրեք  $\"Start$\"-ի թղթապանակը, որտեղ կստեղծվեն ծրագրի պիտակները։"
+  ${LangFileString} MUI_TEXT_STARTMENU_TITLE "Կատալոգ՝ $\"Start$\" ընտրացանկում"
+  ${LangFileString} MUI_TEXT_STARTMENU_SUBTITLE "Ընտրեք $\"Start$\"-ի կատալոգը՝ ծրագրի պիտակների համար"
+  ${LangFileString} MUI_INNERTEXT_STARTMENU_TOP "Ընտրեք  $\"Start$\"-ի կատալոգը, որտեղ կստեղծվեն ծրագրի պիտակները։"
   ${LangFileString} MUI_INNERTEXT_STARTMENU_CHECKBOX "Չստեղծել պիտակներ"
 !endif
 
@@ -113,7 +113,7 @@
 !endif
 
 !ifdef MUI_ABORTWARNING
-  ${LangFileString} MUI_TEXT_ABORTWARNING "Կանգնեցնե՞լ $(^Name)-ի տեղակայումը։"
+  ${LangFileString} MUI_TEXT_ABORTWARNING "Կանգնեցնե՞լ $(^Name)-ի տեղադրումը։"
 !endif
 
 !ifdef MUI_UNABORTWARNING

@@ -15,16 +15,16 @@ NLF v6
 Nullsoft Install System %s
 # ^SetupCaption
 $(^Name)—Poti en tapu a computer
-# ^UninstallCaption
+# ^UninstallCaption	
 $(^Name)—Puru en fu a computer
 # ^LicenseSubCaption
-: Den reti di yu abi
+: Gebruiksrechtovereenkomst
 # ^ComponentsSubCaption
-: San yu kan poti tapu a computer 
+: San yu kan installeer tapu a computer 
 # ^DirSubCaption
 : Na ini sortu folder yu wani poti den file
 # ^InstallingSubCaption
-: A e poti a programa tapu a computer
+: A e installeer a programa tapu a computer
 # ^CompletedSubCaption
 : A kaba
 # ^UnComponentsSubCaption
@@ -32,7 +32,7 @@ $(^Name)—Puru en fu a computer
 # ^UnDirSubCaption
 : Puru a folder pe den file poti
 # ^ConfirmSubCaption
-: Puru en trutru
+: Puru en
 # ^UninstallingSubCaption
 : A e puru a programa
 # ^UnCompletedSubCaption
@@ -40,15 +40,15 @@ $(^Name)—Puru en fu a computer
 # ^BackBtn
 < &Go baka
 # ^NextBtn
-&Trawan >
+&Go doro >
 # ^AgreeBtn
-Mi e &agri
+&Agri
 # ^AcceptBtn
-Mi e &agri nanga Den reti di mi abi
+Mi e &agri nanga san skrifi na a Gebruiksrechtovereenkomst
 # ^DontAcceptBtn
-Mi &no e agri nanga Den reti di mi abi
+Mi &no e agri nanga san skrifi na a Gebruiksrechtovereenkomst
 # ^InstallBtn
-&Poti en
+&Installeer en
 # ^UninstallBtn
 &Puru en
 # ^CancelBtn
@@ -58,11 +58,11 @@ Du noti
 # ^BrowseBtn
 S&uku sani...
 # ^ShowDetailsBtn
-Sori &moro tori
+Sori &moro sani
 # ^ClickNext
-Klik Trawan fu go doro.
+Klik Go doro fu go doro.
 # ^ClickInstall
-Klik Poti en fu poti a programa tapu a computer.
+Klik Installeer en fu poti a programa tapu a computer.
 # ^ClickUninstall
 Klik Puru en fu puru a programa fu a computer.
 # ^Name
@@ -70,47 +70,47 @@ Nen
 # ^Completed
 A kaba
 # ^LicenseText
-Leisi na artikel Den reti di yu abi fosi yu poti $(^NameDA) tapu a computer. Efu yu e agri, dan klik Mi e agri.
+Leisi a Gebruiksrechtovereenkomst fosi yu intalleer $(^NameDA) tapu a computer. Efu yu e agri, dan klik Agri.
 # ^LicenseTextCB
-Leisi na artikel Den reti di yu abi fosi yu poti $(^NameDA) tapu a computer. Efu yu e agri, dan klik Mi e agri. $_CLICK
+Leisi a Gebruiksrechtovereenkomst fosi yu installeer $(^NameDA) tapu a computer. Efu yu e agri, dan klik na ini a faki na Agri. $_CLICK
 # ^LicenseTextRB
-Leisi na artikel Den reti di yu abi fosi yu poti $(^NameDA) tapu a computer. Efu yu e agri, dan klik a fosi option na ondrosei. $_CLICK
+Leisi a Gebruiksrechtovereenkomst fosi yu installeer $(^NameDA) tapu a computer. Efu yu e agri, dan klik a fosi sani na ondrosei. $_CLICK
 # ^UnLicenseText
-Leisi na artikel Den reti di yu abi fosi yu puru $(^NameDA) fu a computer. Efu yu e agri, dan klik Mi e agri.
+Leisi a Gebruiksrechtovereenkomst baka, fosi yu puru $(^NameDA) tapu a computer. Efu yu e agri, dan klik Agri.
 # ^UnLicenseTextCB
-Leisi na artikel Den reti di yu abi fosi yu puru $(^NameDA) fu a computer. Efu yu e agri, dan klik a fosi option na ondrosei. $_CLICK
+Leisi a Gebruiksrechtovereenkomst baka, fosi yu puru $(^NameDA) fu a computer. Efu yu e agri, dan klik na ini a faki na Agri. $_CLICK
 # ^UnLicenseTextRB
-Leisi na artikel Den reti di yu abi fosi yu puru $(^NameDA) fu a computer. Efu yu e agri, dan klik a fosi option na ondrosei. $_CLICK
+Leisi a Gebruiksrechtovereenkomst baka, fosi yu puru $(^NameDA) fu a computer. Efu yu e agri, dan klik a fosi sani na ondrosei. $_CLICK
 # ^Custom
-Selecteer san yu wani poti tapu a computer, noso san yu wani puru
+Poti wan marki na den sani di yu wani poti tapu a computer, noso den sani di yu wani puru
 # ^ComponentsText
-Check den sani di yu wani poti tapu a computer, ma no check den sani di yu no wani poti. $_CLICK
+Poti wan marki na den sani di yu wani poti tapu a computer, èn puru a marki na den sani di yu no wani poti. $_CLICK
 # ^ComponentsSubText1
-Select fa yu wani poti den sani tapu a computer:
+Klik fa yu wani installeer den sani tapu a computer:
 # ^ComponentsSubText2_NoInstTypes
-Sori den sani di yu wani poti tapu a computer:
+Poti wan marki na den sani di yu wani poti tapu a computer:
 # ^ComponentsSubText2
-Noso sori den tra sani di yu wani poti tapu a computer:
+Noso poti wan marki na den tra sani di yu wani poti tapu a computer:
 # ^UnComponentsText
-Check den sani di yu wani puru, ma no check den sani di yu no wani puru. $_CLICK
+Poti wan marki na den sani di yu wani puru, ma no poti wan marki na den sani di yu no wani puru. $_CLICK
 # ^UnComponentsSubText1
-Sori fa yu wani puru a programa:
+Klik fa yu wani puru a programa:
 # ^UnComponentsSubText2_NoInstTypes
-Sori den sani di yu wani puru:
+Klik den sani di yu wani puru:
 # ^UnComponentsSubText2
-Noso sori den tra sani di yu wani puru fu a programa:
+Noso klik den tra sani di yu wani puru fu a programa:
 # ^DirText
-Den file fu $(^NameDA) o poti na ini a folder disi. Efu yu wani poti den na ini wan tra folder, dan klik ... èn suku wan tra folder. $_CLICK
+Den file fu $(^NameDA) o poti na ini a folder disi. Efu yu wani poti den na ini wan tra folder, dan klik tapu ... na a reti-anusei fu a faki èn suku wan tra folder. $_CLICK
 # ^DirSubText
 Folder pe den file o poti
 # ^DirBrowseText
-Sori a folder pe yu wani poti den file $(^NameDA):
+Klik a folder pe yu wani poti den file $(^NameDA):
 # ^UnDirText
-Den file fu fu $(^NameDA) o puru fu a folder disi. Efu yu wani puru den file fu wan tra folder, dan klik ... èn sori wan tra folder. $_CLICK
+Den file fu $(^NameDA) o puru fu a folder disi. Efu yu wani puru den file fu wan tra folder, dan klik tapu ... na a reti-anusei fu a faki èn suku wan tra folder. $_CLICK
 # ^UnDirSubText
 ""
 # ^UnDirBrowseText
-Sori a folder fu pe yu wani puru den file fu $(^NameDA):
+Klik a folder pe yu wani puru den file fu $(^NameDA):
 # ^SpaceAvailable
 "O furu presi yu abi tapu a computer: "
 # ^SpaceRequired
@@ -120,15 +120,15 @@ $(^NameDA) file o puru fu a folder disi. $_CLICK
 # ^UninstallingSubText
 Puru den file fu:
 # ^FileError
-Wan sani no bun nanga a file disi: \r\n\r\n$0\r\n\r\nKlik Tapu, klik\r\nPruberi en baka, noso klik\r\nLibi a file disi.
+Wan sani no bun nanga a file disi: \r\n\r\n$0\r\n\r\nKlik Tapu, fu no go doro fu installeer a programa\r\nPruberi baka, fu pruberi en baka, noso\r\nLibi en, fu libi a file disi èn fu go doro fu installeer a programa.
 # ^FileError_NoIgnore
-Wan sani no bun nanga a file disi: \r\n\r\n$0\r\n\r\nKlik Pruberi en baka, noso klik\r\nDu noti.
+Wan sani no bun nanga a file disi: \r\n\r\n$0\r\n\r\nKlik Pruberi baka, fu pruberi en baka, noso\r\nDu noti, fu no installeer a programa go doro.
 # ^CantWrite
 "No man kenki a file: "
 # ^CopyFailed
 A file no kopieer bun
 # ^CopyTo
-"Kopieer go na "
+"Kopieer en go na "
 # ^Registering
 "Poti na ini a registry: "
 # ^Unregistering
@@ -144,9 +144,9 @@ A file no kopieer bun
 # ^CreatedUninstaller
 "Meki a programa di o puru den file: "
 # ^Delete
-"Puru file: "
+"Figi a file puru: "
 # ^DeleteOnReboot
-"Puru file baka te a computer leti baka: "
+"Figi a file puru, baka te a computer leti baka: "
 # ^ErrorCreatingShortcut
 "No man meki shortcut: "
 # ^ErrorCreating
@@ -160,11 +160,11 @@ A DLL no man seti na ini a registry
 # ^Exec
 "Du: "
 # ^Extract
-"Puru file: "
+"Puru file fu: "
 # ^ErrorWriting
-"Puru file: no man kenki wan fu den file "
+"Puru file fu: no man kenki wan fu den file "
 # ^InvalidOpcode
-Wan sani no bun nanga a programa: kruktu opcode
+Wan sani no bun nanga a programa: na opcode no bun
 # ^NoOLE
 "OLE no de gi: "
 # ^OutputFolder
@@ -172,13 +172,13 @@ Wan sani no bun nanga a programa: kruktu opcode
 # ^RemoveFolder
 "Puru a folder: "
 # ^RenameOnReboot
-"Gi a file wan tra nen baka te a computer leti baka: "
+"Gi a file wan tra nen, baka te a computer leti baka: "
 # ^Rename
 "Gi a file wan tra nen: "
 # ^Skipped
-"No du noti nanga den file disi: "
+"Noti no du nanga den file disi: "
 # ^CopyDetails
-Kopieer wan tu sani na a Clipboard
+Kopieer wan tu sani go na a Clipboard
 # ^LogInstall
 Save wan tu sani fu a fasi fa a programa poti tapu a computer
 # ^Byte
