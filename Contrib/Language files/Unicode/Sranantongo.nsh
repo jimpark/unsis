@@ -14,23 +14,23 @@
 !endif
 
 !ifdef MUI_LICENSEPAGE
-  ${LangFileString} MUI_TEXT_LICENSE_TITLE "Gebruikersrechtovereenkomst"
-  ${LangFileString} MUI_TEXT_LICENSE_SUBTITLE "Grantangi, leisi a Gebruikersrechtovereenkomst fosi yu installeer $(^NameDA) tapu a computer."
-  ${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM "Efu yu e agri nanga den sani di skrifi na ini a Gebruikersrechtovereenkomst, dan klik Agri fu go doro. Yu musu agri fu man installeer $(^NameDA) tapu a computer."
+  ${LangFileString} MUI_TEXT_LICENSE_TITLE "Gebruiksovereenkomst"
+  ${LangFileString} MUI_TEXT_LICENSE_SUBTITLE "Grantangi, leisi a Gebruiksovereenkomst fosi yu installeer $(^NameDA) tapu a computer."
+  ${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM "Efu yu e agri nanga den sani di skrifi na ini a Gebruiksovereenkomst, dan klik Agri fu go doro. Yu musu agri fu man installeer $(^NameDA) tapu a computer."
   ${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM_CHECKBOX "Efu yu e agri, dan poti wan marki na ini a faki na ondrosei. Yu musu agri fu man installeer $(^NameDA) tapu a computer. $_CLICK"
   ${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM_RADIOBUTTONS "Efu yu e agri nanga den sani disi, dan klik a fosi sani na ondrosei. Yu musu agri fu man installeer $(^NameDA) tapu a computer. $_CLICK"
 !endif
 
 !ifdef MUI_UNLICENSEPAGE
-  ${LangFileString} MUI_UNTEXT_LICENSE_TITLE "Gebruikersrechtovereenkomst"
-  ${LangFileString} MUI_UNTEXT_LICENSE_SUBTITLE "Grantangi, leisi den sani di skrifi na a Gebruikersrechtovereenkomst fosi yu puru $(^NameDA) fu a computer."
+  ${LangFileString} MUI_UNTEXT_LICENSE_TITLE "Gebruiksovereenkomst"
+  ${LangFileString} MUI_UNTEXT_LICENSE_SUBTITLE "Grantangi, leisi den sani di skrifi na a Gebruiksovereenkomst fosi yu puru $(^NameDA) fu a computer."
   ${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM "Efu yu e agri, dan klik Agri fu go doro. Yu musu agri fu man puru $(^NameDA) fu a computer."
   ${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM_CHECKBOX "Efu yu e agri, dan klik Agri. Yu musu agri fu man puru $(^NameDA) fu a computer. $_CLICK"
-  ${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM_RADIOBUTTONS "Efu yu e agri nanga den sani di skrifi na Gebruikersrechtovereenkomst, dan klik a fosi sani na ondrosei. Yu musu agri fu man puru a programa $(^NameDA). $_CLICK"
+  ${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM_RADIOBUTTONS "Efu yu e agri nanga den sani di skrifi na Gebruiksovereenkomst, dan klik a fosi sani na ondrosei. Yu musu agri fu man puru a programa $(^NameDA). $_CLICK"
 !endif
 
 !ifdef MUI_LICENSEPAGE | MUI_UNLICENSEPAGE
-  ${LangFileString} MUI_INNERTEXT_LICENSE_TOP "Druk Page Down tapu yu keyboard fu leisi a Gebruikersrechtovereenkomst go doro."
+  ${LangFileString} MUI_INNERTEXT_LICENSE_TOP "Druk Page Down tapu yu keyboard fu leisi a Gebruiksovereenkomst go doro."
 !endif
 
 !ifdef MUI_COMPONENTSPAGE

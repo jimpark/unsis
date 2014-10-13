@@ -18,7 +18,7 @@ $(^Name)—Poti en tapu a computer
 # ^UninstallCaption	
 $(^Name)—Puru en fu a computer
 # ^LicenseSubCaption
-: Gebruiksrechtovereenkomst
+: Gebruiksovereenkomst
 # ^ComponentsSubCaption
 : San yu kan installeer tapu a computer 
 # ^DirSubCaption
@@ -44,9 +44,9 @@ $(^Name)—Puru en fu a computer
 # ^AgreeBtn
 &Agri
 # ^AcceptBtn
-Mi e &agri nanga san skrifi na a Gebruiksrechtovereenkomst
+Mi e &agri nanga san skrifi na a Gebruiksovereenkomst
 # ^DontAcceptBtn
-Mi &no e agri nanga san skrifi na a Gebruiksrechtovereenkomst
+Mi &no e agri nanga san skrifi na a Gebruiksovereenkomst
 # ^InstallBtn
 &Installeer en
 # ^UninstallBtn
@@ -70,17 +70,17 @@ Nen
 # ^Completed
 A kaba
 # ^LicenseText
-Leisi a Gebruiksrechtovereenkomst fosi yu intalleer $(^NameDA) tapu a computer. Efu yu e agri, dan klik Agri.
+Leisi a Gebruiksovereenkomst fosi yu intalleer $(^NameDA) tapu a computer. Efu yu e agri, dan klik Agri.
 # ^LicenseTextCB
-Leisi a Gebruiksrechtovereenkomst fosi yu installeer $(^NameDA) tapu a computer. Efu yu e agri, dan klik na ini a faki na Agri. $_CLICK
+Leisi a Gebruiksovereenkomst fosi yu installeer $(^NameDA) tapu a computer. Efu yu e agri, dan klik na ini a faki na Agri. $_CLICK
 # ^LicenseTextRB
-Leisi a Gebruiksrechtovereenkomst fosi yu installeer $(^NameDA) tapu a computer. Efu yu e agri, dan klik a fosi sani na ondrosei. $_CLICK
+Leisi a Gebruiksovereenkomst fosi yu installeer $(^NameDA) tapu a computer. Efu yu e agri, dan klik a fosi sani na ondrosei. $_CLICK
 # ^UnLicenseText
-Leisi a Gebruiksrechtovereenkomst baka, fosi yu puru $(^NameDA) tapu a computer. Efu yu e agri, dan klik Agri.
+Leisi a Gebruiksovereenkomst baka, fosi yu puru $(^NameDA) tapu a computer. Efu yu e agri, dan klik Agri.
 # ^UnLicenseTextCB
-Leisi a Gebruiksrechtovereenkomst baka, fosi yu puru $(^NameDA) fu a computer. Efu yu e agri, dan klik na ini a faki na Agri. $_CLICK
+Leisi a Gebruiksovereenkomst baka, fosi yu puru $(^NameDA) fu a computer. Efu yu e agri, dan klik na ini a faki na Agri. $_CLICK
 # ^UnLicenseTextRB
-Leisi a Gebruiksrechtovereenkomst baka, fosi yu puru $(^NameDA) fu a computer. Efu yu e agri, dan klik a fosi sani na ondrosei. $_CLICK
+Leisi a Gebruiksovereenkomst baka, fosi yu puru $(^NameDA) fu a computer. Efu yu e agri, dan klik a fosi sani na ondrosei. $_CLICK
 # ^Custom
 Poti wan marki na den sani di yu wani poti tapu a computer, noso den sani di yu wani puru
 # ^ComponentsText
