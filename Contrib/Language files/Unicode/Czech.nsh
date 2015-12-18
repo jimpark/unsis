@@ -1,7 +1,7 @@
 ;Language: Czech (1029)
 ;By Václav Pavlíček (v.pavlicek@centrum.cz), dříve SELiCE
 
-!insertmacro LANGFILE "Czech" "Cestina" "Čeština"
+!insertmacro LANGFILE "Czech" "Čeština"
 
 !ifdef MUI_WELCOMEPAGE
   ${LangFileString} MUI_TEXT_WELCOME_INFO_TITLE "Vítejte v průvodci instalace produktu $(^NameDA)"
@@ -125,5 +125,5 @@
   ${LangFileString} MULTIUSER_TEXT_INSTALLMODE_SUBTITLE "Výběr uživatelů, kterým bude produkt $(^NameDA) nainstalován."
   ${LangFileString} MULTIUSER_INNERTEXT_INSTALLMODE_TOP "Vyberte, zda chcete produkt $(^NameDA) nainstalovat pouze pro sebe, nebo pro všechny uživatele počítače. $(^ClickNext)"
   ${LangFileString} MULTIUSER_INNERTEXT_INSTALLMODE_ALLUSERS "Instalovat pro všechny uživatele počítače"
-  ${LangFileString} MULTIUSER_INNERTEXT_INSTALLMODE_CURRENTUSER "Instalovat pouze pro sebe
+  ${LangFileString} MULTIUSER_INNERTEXT_INSTALLMODE_CURRENTUSER "Instalovat pouze pro sebe"
 !endif
