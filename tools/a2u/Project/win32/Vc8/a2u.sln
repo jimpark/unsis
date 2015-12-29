@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{C8B4AE9C-8E97-444F-9DA8-575181E2C4AE}") = "a2u", "a2u.vcproj", "{9EECFB4C-3297-401C-BC64-3342DC15B5B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug Unicode|Win32 = Debug Unicode|Win32
+		Debug|Win32 = Debug|Win32
+		Release Unicode|Win32 = Release Unicode|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EECFB4C-3297-401C-BC64-3342DC15B5B6}.Debug Unicode|Win32.ActiveCfg = Debug Unicode|Win32
+		{9EECFB4C-3297-401C-BC64-3342DC15B5B6}.Debug Unicode|Win32.Build.0 = Debug Unicode|Win32
+		{9EECFB4C-3297-401C-BC64-3342DC15B5B6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9EECFB4C-3297-401C-BC64-3342DC15B5B6}.Debug|Win32.Build.0 = Debug|Win32
+		{9EECFB4C-3297-401C-BC64-3342DC15B5B6}.Release Unicode|Win32.ActiveCfg = Release Unicode|Win32
+		{9EECFB4C-3297-401C-BC64-3342DC15B5B6}.Release Unicode|Win32.Build.0 = Release Unicode|Win32
+		{9EECFB4C-3297-401C-BC64-3342DC15B5B6}.Release|Win32.ActiveCfg = Release|Win32
+		{9EECFB4C-3297-401C-BC64-3342DC15B5B6}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

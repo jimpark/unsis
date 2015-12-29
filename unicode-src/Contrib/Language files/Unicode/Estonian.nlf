@@ -1,0 +1,190 @@
+# Header, don't edit
+NLF v6
+# Language ID
+1061
+# Font and size - dash (-) means default
+-
+-
+# Codepage - dash (-) means ANSI code page
+1257
+# RTL - anything else than RTL means LTR
+-
+# Translation by izzo (izzo@hot.ee)
+# ^Branding
+Nullsoft Install System %s
+# ^SetupCaption
+$(^Name) installeerimine
+# ^UninstallCaption
+$(^Name) kustutamine
+# ^LicenseSubCaption
+: Litsentsileping
+# ^ComponentsSubCaption
+: Installeerimisvalikud
+# ^DirSubCaption
+: Installeerimiskaust
+# ^InstallingSubCaption
+: Installeerin			
+# ^CompletedSubCaption
+: Valmis
+# ^UnComponentsSubCaption
+: Eemaldusvalikud
+# ^UnDirSubCaption
+: Eemalduskaust
+# ^ConfirmSubCaption
+: Kinnitus
+# ^UninstallingSubCaption
+: Eemaldan
+# ^UnCompletedSubCaption
+: Valmis
+# ^BackBtn
+< Tagasi
+# ^NextBtn
+Edasi >
+# ^AgreeBtn
+Nõustun
+# ^AcceptBtn
+Nõustun litsentsilepingu tingimustega
+# ^DontAcceptBtn
+Ei nõustu litsentsilepingu tingimustega
+# ^InstallBtn
+Installeeri
+# ^UninstallBtn
+Eemalda
+# ^CancelBtn
+Loobu
+# ^CloseBtn
+Sule
+# ^BrowseBtn
+Sirvi...
+# ^ShowDetailsBtn
+Detailid
+# ^ClickNext
+Jätkamiseks vajuta Edasi.
+# ^ClickInstall
+Installeerimise alustamiseks vajuta Installeeri.
+# ^ClickUninstall
+Eemaldamise alustamiseks vajuta Eemalda.
+# ^Name
+Nimi
+# ^Completed
+Valmis
+# ^LicenseText
+Enne $(^NameDA) installeerimist vaata palun üle litsentsileping. Kui sa nõustud kõigi lepingu tingimustega, vajuta Nõustun.
+# ^LicenseTextCB
+Enne $(^NameDA) installeerimist vaata palun üle litsentsileping. Kui sa nõustud kõigi lepingu tingimustega, vali allolev märkeruut. $_CLICK
+# ^LicenseTextRB
+Enne $(^NameDA) installeerimist vaata palun üle litsentsileping. Kui sa nõustud kõigi lepingu tingimustega, märgi allpool esimene valik. $_CLICK
+# ^UnLicenseText
+Enne $(^NameDA) kustutamist vaata palun litsentsileping üle. Kui sa nõustud kõigi lepingu tingimustega, vajuta Nõustun.
+# ^UnLicenseTextCB
+Enne $(^NameDA) kustutamist vaata palun litsentsileping üle. Kui sa nõustud kõigi lepingu tingimustega, vali allolev märkeruut. $_CLICK
+# ^UnLicenseTextRB
+Enne $(^NameDA) kustutamist vaata palun litsentsileping üle. Kui sa nõustud kõigi lepingu tingimustega, märgi allpool esimene valik. $_CLICK
+# ^Custom
+Kohandatud
+# ^ComponentsText
+Märgista komponendid mida soovid installeerida ja eemalda märgistus neilt, mida ei soovi installeerida. $_CLICK
+# ^ComponentsSubText1
+Vali installeerimise tüüp:
+# ^ComponentsSubText2_NoInstTypes
+Vali installeeritavad komponendid:
+# ^ComponentsSubText2
+või vali lisakomponendid mida soovid installeerida:
+# ^UnComponentsText
+Märgista komponendid mida soovid eemaldada ja eemalda märgistus neilt, mida ei soovi eemaldada. $_CLICK
+# ^UnComponentsSubText1
+Vali eemalduse tüüp:
+# ^UnComponentsSubText2_NoInstTypes
+Vali eemaldatavad komponendid:
+# ^UnComponentsSubText2
+või vali lisakomponendid mida soovid eemaldada:
+# ^DirText
+$(^NameDA) installeeritakse järgmisse kausta. Et mujale installeerida, vajuta sirvi ja vali teine kaust. $_CLICK
+# ^DirSubText
+Sihtkaust
+# ^DirBrowseText
+Vali kaust kuhu $(^NameDA) installeerida:
+# ^UnDirText
+$(^NameDA) eemaldatakse järgmisest kaustast. Et mujalt eemaldada, vajuta sirvi ja vali teine kaust. $_CLICK
+# ^UnDirSubText
+""
+# ^UnDirBrowseText
+Vali kaust kust $(^NameDA) eemaldada:
+# ^SpaceAvailable
+"Vaba ruum: "
+# ^SpaceRequired
+"Vajalik ruum: "
+# ^UninstallingText
+$(^NameDA) eemaldatakse järgmisest kaustast. $_CLICK
+# ^UninstallingSubText
+Eemaldan sealt:
+# ^FileError
+Tõrge faili avamisel kirjutamiseks: \r\n\t"$0"\r\nInstalleerimise katkestamiseks vajuta Katkesta,\r\nvajuta Ürita uuesti, et faili kirjutamist uuesti proovida, või\r\nIgnoreeri, et see fail vahele jätta.
+# ^FileError_NoIgnore
+Tõrge faili avamisel kirjutamiseks: \r\n\t"$0"\r\nVajuta Ürita uuesti, et faili kirjutamist uuesti proovida, või\r\nLoobu, et installeerimise katkestada
+# ^CantWrite
+"Ei saa kirjutada: "
+# ^CopyFailed
+Kopeerimine ebaõnnestus
+# ^CopyTo
+"Kopeeri kausta "
+# ^Registering
+"Registreerin: "
+# ^Unregistering
+"Deregistreerin: "
+# ^SymbolNotFound
+"Ei leidnud sümbolit: "
+# ^CouldNotLoad
+"Ei saanud laadida: "
+# ^CreateFolder
+"Loo kaust: "
+# ^CreateShortcut
+"Loo otsetee: "
+# ^CreatedUninstaller
+"Loodud eemaldaja: "
+# ^Delete
+"Kustuta fail: "
+# ^DeleteOnReboot
+"Kustuta taaskäivitamisel: "
+# ^ErrorCreatingShortcut
+"Tõrge otsetee loomisel: "
+# ^ErrorCreating
+"Tõrge loomisel: "
+# ^ErrorDecompressing
+Tõrge andmete lahtipakkimisel! Vigane installeerija?
+# ^ErrorRegistering
+Tõrge DLL-i registreerimisel
+# ^ExecShell
+"ExecShell: "
+# ^Exec
+"Käivita: "
+# ^Extract
+"Paki lahti: "
+# ^ErrorWriting
+"Paki lahti: viga faili kirjutamisel "
+# ^InvalidOpcode
+Installeerija kõlbmatu: vigane opkood
+# ^NoOLE
+"No OLE for: "
+# ^OutputFolder
+"Väljastatav kaust: "
+# ^RemoveFolder
+"Eemalda kaust: "
+# ^RenameOnReboot
+"Taaskäivitusel nimeta ümber: "
+# ^Rename
+"Nimeta ümber: "
+# ^Skipped
+"Vahele jäetud: "
+# ^CopyDetails
+Kopeeri detailid lõikelauale
+# ^LogInstall
+Logi installeerimissprotsess
+# ^Byte
+B
+# ^Kilo
+K
+# ^Mega
+M
+# ^Giga
+G

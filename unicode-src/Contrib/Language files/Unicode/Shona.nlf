@@ -1,0 +1,191 @@
+# Header, don't edit
+NLF v6
+# Start editing here
+# Language ID
+1540
+# Font and size - dash (-) means default
+-
+-
+# Codepage - dash (-) means ANSI code page
+-
+# RTL - anything else than RTL means LTR
+-
+# Translation by ..... (any credits should go here)
+# ^Branding
+Nullsoft Install System %s
+# ^SetupCaption
+Kuisa $(^Name)
+# ^UninstallCaption
+Kubvisa $(^Name)
+# ^LicenseSubCaption
+: License Agreement
+# ^ComponentsSubCaption
+: Maisiro Aunoda Kuita
+# ^DirSubCaption
+: Mauri Kuda Kuisa
+# ^InstallingSubCaption
+: Kuisa
+# ^CompletedSubCaption
+: Yapedza
+# ^UnComponentsSubCaption
+: Mabvisiro Aunoda Kuita
+# ^UnDirSubCaption
+: Kubvisa Mayanga Yakaiswa
+# ^ConfirmSubCaption
+: Ndizvozvo
+# ^UninstallingSubCaption
+: Kubvisa
+# ^UnCompletedSubCaption
+: Yapedza
+# ^BackBtn
+< &Dzoka
+# ^NextBtn
+&Mberi >
+# ^AgreeBtn
+&Ndinobvuma
+# ^AcceptBtn
+Ndino&bvumirana nezviri kutaurwa neLicence Agreement
+# ^DontAcceptBtn
+&Handibvumirani nezviri kutaurwa neLicence Agreement
+# ^InstallBtn
+&Isa
+# ^UninstallBtn
+&Bvisa
+# ^CancelBtn
+Kanzura
+# ^CloseBtn
+&Vhara
+# ^BrowseBtn
+&Tsvaga...
+# ^ShowDetailsBtn
+Ratidza &zvakawanda
+# ^ClickNext
+Baya pakanzi Mberi kuti uenderere mberi.
+# ^ClickInstall
+Baya pakanzi Isa kuti utange kuisa.
+# ^ClickUninstall
+Baya pakanzi Bvisa kuti utange kubvisa.
+# ^Name
+Zita
+# ^Completed
+Yapedza
+# ^LicenseText
+Tapota nyatsoverenga  chibvumirano chekuishandisa (Licence Agreement) usati waisa $(^NameDA). Kana uchibvumirana nezviri kutaurwa imomo baya pakanzi Ndinobvuma.
+# ^LicenseTextCB
+Tapota nyatsoverenga  chibvumirano chekuishandisa (Licence Agreement) usati waisa $(^NameDA). Kana uchibvuma zvose zviri muchibvumirano ichi, baya kabhokisi kari pasi apa. $_CLICK
+# ^LicenseTextRB
+Tapota nyatsoverenga  chibvumirano chekuishandisa (Licence Agreement) usati waisa $(^NameDA). Kana uchibvumirana nezvose zviri muchibvumirano ichi, baya pokutanga pane zviri pasi apa. $_CLICK
+# ^UnLicenseText
+Tapota nyatsoverenga chibvumirano chekuishandisa (Licence Agreement) usati wabvisa $(^NameDA). Kana uchibvumirana nezviri kutaurwa imomo baya pakanzi Ndinobvuma.
+# ^UnLicenseTextCB
+Tapota nyatsoverenga  chibvumirano chekuishandisa (Licence Agreement) usati wabvisa $(^NameDA). Kana uchibvumirana nezvose zviri muchibvumirano ichi, baya pokutanga pane zviri pasi apa. $_CLICK
+# ^UnLicenseTextRB
+Tapota nyatsoverenga chibvumirano chekuishandisa (Licence Agreement) usati wabvisa $(^NameDA). Kana uchibvumirana nezvose zviri muchibvumirano ichi, baya pokutanga pane zviri pasi apa. $_CLICK
+# ^Custom
+Maitiro
+# ^ComponentsText
+Isa maki pane zvaunoda kuisa wobvisa maki pane zvausingadi kuisa. $_CLICK
+# ^ComponentsSubText1
+Sarudza maisiro aunoda:
+# ^ComponentsSubText2_NoInstTypes
+Sarudza zvaunoda kuisa:
+# ^ComponentsSubText2
+Kana kuti, sarudza zvimwewo zvaungada kuisa:
+# ^UnComponentsText
+Isa maki pane zvaunoda kubvisa, wobvisa maki pane zvausingadi kubvisa. $_CLICK
+# ^UnComponentsSubText1
+Sarudza mabvisiro aunoda:
+# ^UnComponentsSubText2_NoInstTypes
+Sarudza zvaunoda kubvisa:
+# ^UnComponentsSubText2
+Kana kuti, sarudza zvimwewo zvaungada kubvisa:
+# ^DirText
+Kuisa nenzira iyi kuchaita kuti $(^NameDA) ive mufolder rinotevera. Kuti uise mune rimwe folder, baya pakanzi Tsvaga wosarudza rimwe folder. $_CLICK
+# ^DirSubText
+Folder Rairi Kuenda
+# ^DirBrowseText
+Sarudza folder raunoda kuti $(^NameDA) iende:
+# ^UnDirText
+Kubvisa nenzira iyi kuchaita kuti $(^NameDA) ibve mufolder rinotevera. Kuti ubvise mune rimwe folder rakasiyana neiri, baya pakanzi Tsvaga wosarudza rimwe folder. $_CLICK
+# ^UnDirSubText
+""
+# ^UnDirBrowseText
+Sarudza folder raunoda kubvisa $(^NameDA) kubva pane aya:
+# ^SpaceAvailable
+"Nzvimbo iripo: "
+# ^SpaceRequired
+"Nzvimbo inodiwa: "
+# ^UninstallingText
+$(^NameDA) ichabviswa mufolder rinotevera. $_CLICK
+# ^UninstallingSubText
+Kubvisa mu:
+# ^FileError
+Faira ratadza kuvhurika kuti rikopwe: \r\n\r\n$0\r\n\r\nBaya pakanzi Kanzura kuti umire kuisa purogiramu,\r\nBaya Edzazve kuti uedze zvakare, kana kuti\r\nSiyana Nazvo kuti uenderere mberi.
+# ^FileError_NoIgnore
+Faira ratadza kuvhurika kuti rikopwe: \r\n\r\n$0\r\n\r\nBaya pakanzi Edzazve kuti uedze zvakare, kana kuti\r\nKanzura kuti umire kuisa purogiramu.
+# ^CantWrite
+"Yatadza kukopa: "
+# ^CopyFailed
+Kukopa kwaramba
+# ^CopyTo
+"Kopera ku "
+# ^Registering"
+"Kuzvinyoresa: "
+# ^Unregistering
+"Kubvisa Mashoko: "
+# ^SymbolNotFound
+"Chiratidzo hachisi kuoneka: "
+# ^CouldNotLoad
+"Yatadza kuvhura: "
+# ^CreateFolder
+"Gadzira folder: "
+# ^CreateShortcut
+"Gadzira folder rokudimbudzira: "
+# ^CreatedUninstaller
+"Ragadzira: "
+# ^Delete
+"Dzima faira: "
+# ^DeleteOnReboot
+"Dzima paunobatidzazve kombiyuta: "
+# ^ErrorCreatingShortcut
+"Haisi kukwanisa kugadzira faira rokudimbudzira: "
+# ^ErrorCreating
+"Haisi kukwanisa kugadzira: "
+# ^ErrorDecompressing
+Yatadza kubatanidza mashoko! Yakakanganisika?
+# ^ErrorRegistering
+Yatadza kuvhura DLL
+# ^ExecShell
+"ExecShell: "
+# ^Exec
+"Ita: "
+# ^Extract
+"Nokora: "
+# ^ErrorWriting
+"Nokora: yatadza kuvhura faira"
+# ^InvalidOpcode
+Yakakanganisika: opcode iyi haishande
+# ^NoOLE
+"Hapana OLE ye: "
+# ^OutputFolder
+"Output folder: "
+# ^RemoveFolder
+"Bvisa folder: "
+# ^RenameOnReboot
+"Ngarichinje zita paunobatidzazve kombiyuta: "
+# ^Rename
+"Chinja Zita: "
+# ^Skipped
+"Rasiyiwa: "
+# ^CopyDetails
+Inotora Zvawakopa Yochengeta
+# ^LogInstall
+Log install process
+# ^Byte
+B
+# ^Kilo
+K
+# ^Mega
+M
+# ^Giga
+G

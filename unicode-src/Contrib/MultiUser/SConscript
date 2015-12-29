@@ -1,0 +1,19 @@
+target = 'MultiUser'
+
+docs = Split("""
+	Readme.html
+""")
+
+includes = Split("""
+	MultiUser.nsh
+""")
+
+Import('defenv')
+
+if defenv['UNICODE']:
+	includes = ["Unicode/%s" % x for x in includes]
+else:
+	includes = ["ANSI/%s" % x for x in includes]
+
+defenv.DistributeDocs(docs, path=target)
+defenv.DistributeInclude(includes)

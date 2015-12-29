@@ -1,0 +1,40 @@
+ExtLibs\**
+obj\**
+Debug Unicode\**
+Debug\**
+Release Unicode\**
+Release\**
+Static Release\**
+Static Debug\**
+x64\**
+*.obj
+*.dll
+*.exe
+*.pdb
+*.idb
+*.pch
+*.vcxproj.user
+*.sdf
+*.suo
+*.sbr
+*.tlog
+*.log
+*.lastbuildstate
+*.unsuccessfulbuild
+*.opensdf
+*.ipch
+*.force
+*.cache
+*.prefs
+*.res
+*.manifest
+*.pyc
+*_manifest.rc
+**/.sconf_temp/**
+.sconsign.dblite
+**/build/**
+mk*.out
+unicode-src/Contrib/NSIS Menu/wx/old_setup.h
+unicode-src/*.zip
+.instdir\**
+unicode-src/utf16to8/.idea/**

@@ -1,0 +1,191 @@
+# Header, don't edit
+NLF v6
+# Start editing here
+# Language ID
+1052
+# Font and size - dash (-) means default
+-
+-
+# Codepage - dash (-) means ANSI code page
+1250
+# RTL - anything else than RTL means LTR
+-
+# Përkthimi nga...
+# ^Branding
+Sistemi Nullsoft për Instalime %s
+# ^SetupCaption
+Instalimi i $(^Name)
+# ^UninstallCaption
+Çinstalimi i $(^Name)
+# ^LicenseSubCaption
+: Marrëveshje license
+# ^ComponentsSubCaption
+: Mundësi instalimi
+# ^DirSubCaption
+: Dosje instalimi
+# ^InstallingSubCaption
+: Po instalohet
+# ^CompletedSubCaption
+: U plotësua
+# ^UnComponentsSubCaption
+: Mundësi çinstalimi
+# ^UnDirSubCaption
+: Dosje çinstalimi
+# ^ConfirmSubCaption
+: Ripohim
+# ^UninstallingSubCaption
+: Po çinstalohet
+# ^UnCompletedSubCaption
+: U plotësua
+# ^BackBtn
+< &Kthehu
+# ^NextBtn
+&Vazhdo >
+# ^AgreeBtn
+&Pranoj
+# ^AcceptBtn
+&Jam dakord me kushtet e Marrëveshjes së Licensës
+# ^DontAcceptBtn
+&Nuk jam dakord me kushtet e Marrëveshjes së Licensës
+# ^InstallBtn
+&Instalo
+# ^UninstallBtn
+&Çinstalo
+# ^CancelBtn
+Anulo
+# ^CloseBtn
+&Mbyll
+# ^BrowseBtn
+Sh&fleto...
+# ^ShowDetailsBtn
+Trego &hollësi
+# ^ClickNext
+Kliko Vazhdo për të vazhduar.
+# ^ClickInstall
+Për të filluar instalimin kliko Instalo.
+# ^ClickUninstall
+Për të filluar çinstalimin kliko Çinstalo.
+# ^Name
+Emri
+# ^Completed
+U plotësua
+# ^LicenseText
+Të lutemi, para instalimit të $(^NameDA), shqyrto Marrëveshjen e Licensës. Nëse je dakord me të gjitha kushtet e Marrëveshjes, kliko Pranoj.
+# ^LicenseTextCB
+Të lutemi, para instalimit të $(^NameDA), shqyrto Marrëveshjen e Licensës. Nëse je dakord me të gjitha kushtet e Marrëveshjes, kliko kutinë më poshtë. $_CLICK
+# ^LicenseTextRB
+Të lutemi, para instalimit të $(^NameDA), shqyrto Marrëveshjen e Licensës. Nëse je dakord me të gjitha kushtet e Marrëveshjes, zgjidh mundësinë e parë më poshtë. $_CLICK
+# ^UnLicenseText
+Të lutemi, para çinstalimit të $(^NameDA), shqyrto Marrëveshjen e Licensës. Nëse je dakord me të gjitha kushtet e Marrëveshjes, kliko Pranoj.
+# ^UnLicenseTextCB
+Të lutemi, para çinstalimit të $(^NameDA), shqyrto Marrëveshjen e Licensës. Nëse je dakord me të gjitha kushtet e Marrëveshjes, kliko kutinë më poshtë. $_CLICK
+# ^UnLicenseTextRB
+Të lutemi, para çinstalimit të $(^NameDA), shqyrto Marrëveshjen e Licensës. Nëse je dakord me të gjitha kushtet e Marrëveshjes, zgjidh mundësinë e parë më poshtë. $_CLICK
+# ^Custom
+Me zgjedhje
+# ^ComponentsText
+Zgjidh përbërësit që dëshiron të instalohen dhe hiq shenjën pranë përbërësve që nuk dëshiron të instalohen. $_CLICK
+# ^ComponentsSubText1
+Zgjidh llojin e instalimit:
+# ^ComponentsSubText2_NoInstTypes
+Zgjidh përbërësit për instalim:
+# ^ComponentsSubText2
+Ose zgjidh përbërësit e mundshëm që dëshiron të instalohen:
+# ^UnComponentsText
+Zgjidh përbërësit që dëshiron të çinstalohen dhe hiq shenjën pranë përbërësve që nuk dëshiron të çinstalohen. $_CLICK
+# ^UnComponentsSubText1
+Zgjidh llojin e çinstalimit:
+# ^UnComponentsSubText2_NoInstTypes
+Zgjidh përbërësit për çinstalim:
+# ^UnComponentsSubText2
+Ose zgjidh përbërësit e mundshëm që dëshiron të çinstalohen:
+# ^DirText
+Instalimi do ta vendosë $(^NameDA) në dosjen vijuese. Nëse dëshiron të përdorësh një dosje tjetër, kliko butonin "..." dhe zgjidh atë dosje. $_CLICK
+# ^DirSubText
+Dosje mbërritëse
+# ^DirBrowseText
+Zgjidh dosjen ku të instalosh programin $(^NameDA):
+# ^UnDirText
+Instalimi do ta heqë $(^NameDA) nga dosja vijuese. Nëse dëshiron të përdorësh një dosje tjetër, kliko butonin "..." dhe zgjidh atë dosje. $_CLICK
+# ^UnDirSubText
+""
+# ^UnDirBrowseText
+Zgjidh dosjen nga e cila do të çinstalohet $(^NameDA):
+# ^SpaceAvailable
+"Hapësirë në dispozicion: "
+# ^SpaceRequired
+"Hapësirë e nevojshme: "
+# ^UninstallingText
+$(^NameDA) do të çinstalohet nga dosja vijuese. $_CLICK
+# ^UninstallingSubText
+Po çinstalohet nga:
+# ^FileError
+Gabim në hapje kartele për shkrim: \r\n\r\n$0\r\n\r\nKliko Ndërprit për të ndalur instalimin,\r\nRiprovo për të provuar sërish, ose\r\nShpërfill për të anashkaluar këtë kartelë.
+# ^FileError_NoIgnore
+Gabim në hapje kartele për shkrim: \r\n\r\n$0\r\n\r\nKliko Riprovo për të provuar sërish, ose\r\nAnulo për të ndalur instalimin.
+# ^CantWrite
+"E pamundur të shkruhet: "
+# ^CopyFailed
+Kopjimi dështoi
+# ^CopyTo
+"Kopjo te: "
+# ^Registering
+"Regjistrim: "
+# ^Unregistering
+"Çregjistrim: "
+# ^SymbolNotFound
+"Nuk u gjet dot simboli: "
+# ^CouldNotLoad
+"Nuk u ngarkua dot: "
+# ^CreateFolder
+"Krijo dosjen: "
+# ^CreateShortcut
+"Krijo shkurtoren: "
+# ^CreatedUninstaller
+"Krijo çinstaluesin: "
+# ^Delete
+"Fshi kartelën: "
+# ^DeleteOnReboot
+"Fshi gjatë rinisjes: "
+# ^ErrorCreatingShortcut
+"Gabim në krijimin e shkurtores: "
+# ^ErrorCreating
+"Gabim në krijimin e: "
+# ^ErrorDecompressing
+Gabim në dekompresim të dhënash! Instaluesi është i dëmtuar?
+# ^ErrorRegistering
+Gabim në regjistrim DLL-je
+# ^ExecShell
+"ExecShell: "
+# ^Exec
+"Ekzekuto: "
+# ^Extract
+"Zbërthe: "
+# ^ErrorWriting
+"Zbërthim: gabim në shkrim te kartela "
+# ^InvalidOpcode
+Instaluesi i dëmtuar: opcode i pavlefshëm
+# ^NoOLE
+"Nuk ka OLE për: "
+# ^OutputFolder
+"Dosje përfundimesh: "
+# ^RemoveFolder
+"Hiq dosjen: "
+# ^RenameOnReboot
+"Riemërto gjatë rinisjes: "
+# ^Rename
+"Riemërto: "
+# ^Skipped
+"U anashkalua: "
+# ^CopyDetails
+Kopjo hollësitë në Clipboard
+# ^LogInstall
+Regjistro procesin e instalimit
+# ^Byte
+B
+# ^Kilo
+K
+# ^Mega
+M
+# ^Giga
+G

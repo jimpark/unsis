@@ -1,0 +1,64 @@
+examples = Split("""
+	bigtest.nsi
+	example1.nsi
+	example2.nsi
+	FileFunc.ini
+	FileFunc.nsi
+	FileFuncTest.nsi
+	FontFunc.nsi
+	gfx.nsi
+	languages.nsi
+	Library.nsi
+	LogicLib.nsi
+	makensis.nsi
+	Memento.nsi
+	one-section.nsi
+	primes.nsi
+	rtest.nsi
+	silent.nsi
+	StrFunc.nsi
+	TextFunc.ini
+	TextFunc.nsi
+	TextFuncTest.nsi
+	UserVars.nsi
+	VersionInfo.nsi
+	viewhtml.nsi
+	waplugin.nsi
+	WordFunc.ini
+	WordFunc.nsi
+	WordFuncTest.nsi
+""")
+
+mui_examples = [
+	'Modern UI/Basic.nsi',
+	'Modern UI/HeaderBitmap.nsi',
+	'Modern UI/MultiLanguage.nsi',
+	'Modern UI/StartMenu.nsi',
+	'Modern UI/WelcomeFinish.nsi'
+]
+
+Import('env')
+
+if env['UNICODE']:
+	temp = []
+	for x in examples:
+		temp.append('Unicode/' + x)
+	examples = temp
+
+	temp = []
+	for x in mui_examples:
+		temp.append('Unicode/' + x)
+	mui_examples = temp
+else:
+	temp = []
+	for x in examples:
+		temp.append('ANSI/' + x)
+	examples = temp
+
+	temp = []
+	for x in mui_examples:
+		temp.append('ANSI/' + x)
+	mui_examples = temp
+
+env.DistributeExamples(examples)
+env.DistributeExamples(mui_examples, path='Modern UI')

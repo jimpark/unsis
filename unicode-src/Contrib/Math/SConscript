@@ -1,0 +1,36 @@
+target = 'Math'
+
+files = Split("""
+	Source/Math.c
+	Source/MyMath.c
+	Source/plugin.c
+""")
+
+libs = Split("""
+	kernel32
+	user32
+""")
+
+docs = Split("""
+	Math.txt
+""")
+
+Import('BuildPlugin env')
+
+if env['UNICODE']:
+	examples = Split("""
+		Unicode/math.nsi
+		Unicode/mathtest.nsi
+		Unicode/mathtest.ini
+		mathtest.txt
+	""")
+else:
+	examples = Split("""
+		ANSI/math.nsi
+		ANSI/mathtest.nsi
+		ANSI/mathtest.ini
+		mathtest.txt
+	""")
+
+
+BuildPlugin(target, files, libs, examples, docs, nodeflib = False, flags = ['$CPP_FLAG'], entry = None)

@@ -1,0 +1,193 @@
+# Header, don't edit
+NLF v6
+# Language ID
+1058
+# Font and size - dash (-) means default
+-
+-
+# Codepage - dash (-) means ANSI code page
+1251
+# RTL - anything else than RTL means LTR
+-
+# Translation by Yuri Holubow, Nash-Soft.com <http://www.Nash-Soft.com>
+# Corrections by Dmitriy Kononchuk [http://gri3ly.kiev.ua]
+# New corrections by Osidach Vitaly
+# Corrections by Kohut Vadym
+# ^Branding
+Nullsoft Install System %s
+# ^SetupCaption
+Інсталяція $(^Name)
+# ^UninstallCaption
+Видалення $(^Name)
+# ^LicenseSubCaption
+: Ліцензійна угода
+# ^ComponentsSubCaption
+: Параметри інсталяції
+# ^DirSubCaption
+: Папка для інсталяції
+# ^InstallingSubCaption
+: Копіювання файлів
+# ^CompletedSubCaption
+: Завершено
+# ^UnComponentsSubCaption
+: Параметри видалення
+# ^UnDirSubCaption
+: Папка для видалення
+# ^ConfirmSubCaption
+: Підтверждення
+# ^UninstallingSubCaption
+: Видалення файлів
+# ^UnCompletedSubCaption
+: Завершено
+# ^BackBtn
+< &Назад
+# ^NextBtn
+&Далі >
+# ^AgreeBtn
+П&риймаю
+# ^AcceptBtn
+Я &приймаю умови ліцензійної угоди
+# ^DontAcceptBtn
+Я &не приймаю умови ліцензійної угоди
+# ^InstallBtn
+&Інсталювати
+# ^UninstallBtn
+&Видалити
+# ^CancelBtn
+Скасувати
+# ^CloseBtn
+&Закрити
+# ^BrowseBtn
+О&гляд...
+# ^ShowDetailsBtn
+Деталі...
+# ^ClickNext
+Для продовження натисніть кнопку «Далі».
+# ^ClickInstall
+Щоб почати інсталяцію, натисніть кнопку «Інсталювати».
+# ^ClickUninstall
+Щоб почати видалення, натисніть кнопку «Видалити».
+# ^Name
+Ім'я
+# ^Completed
+Завершити
+# ^LicenseText
+Перед інсталяцією $(^NameDA), будь ласка, ознайомтеся з умовами ліцензійної угоди. Якщо ви приймаєте всі умови цієї угоди, натисніть кнопку «Приймаю».
+# ^LicenseTextCB
+Перед інсталяцією $(^NameDA), будь ласка, ознайомтеся з умовами ліцензійної угоди. Якщо ви приймаєте всі умови цієї угоди, клацніть пустий квадратик внизу. $_CLICK
+# ^LicenseTextRB
+Перед інсталяцією $(^NameDA), будь ласка, ознайомтеся з умовами ліцензійної угоди. Якщо ви приймаєте всі умови цієї угоди, виберіть перший варіант внизу. $_CLICK
+# ^UnLicenseText
+Перед видаленням $(^NameDA), будь ласка, ознайомтеся з умовами ліцензійної угоди. Якщо ви приймаєте всі умови цієї угоди, натисніть кнопку «Приймаю».
+# ^UnLicenseTextCB
+Перед видаленням $(^NameDA), будь ласка, ознайомтеся з умовами ліцензійної угоди. Якщо ви приймаєте всі умови цієї угоди, клацніть пустий квадратик внизу. $_CLICK
+# ^UnLicenseTextRB
+Перед видаленням $(^NameDA), будь ласка, ознайомтеся з умовами ліцензійної угоди. Якщо ви приймаєте всі умови цієї угоди, виберіть перший варіант внизу. $_CLICK
+# ^Custom
+Вибіркова
+# ^ComponentsText
+Позначте компоненти, які ви хочете інсталювати, і заберіть позначку з компонентів, які ви не хочете інсталювати. $_CLICK
+# ^ComponentsSubText1
+Виберіть тип інсталяції:
+# ^ComponentsSubText2_NoInstTypes
+Виберіть компоненти для інсталяції:
+# ^ComponentsSubText2
+або виберіть компоненти, які ви хочете інсталювати:
+# ^UnComponentsText
+Позначте компоненти, які ви хочете видалити, і заберіть позначку з компонентів, які ви не хочете видаляти. $_CLICK
+# ^UnComponentsSubText1
+Виберіть тип видалення:
+# ^UnComponentsSubText2_NoInstTypes
+Виберіть компоненти для видалення:
+# ^UnComponentsSubText2
+або виберіть компоненти, які ви хочете видалити:
+# ^DirText
+Ця програма інсталює $(^NameDA) у вказану папку. Щоб здійснити інсталяцію в іншу папку, натисніть кнопку «Огляд» і виберіть потрібну папку. $_CLICK
+# ^DirSubText
+Папка призначення
+# ^DirBrowseText
+Виберіть папку для інсталяції $(^NameDA):
+# ^UnDirText
+Ця програма видалить $(^NameDA) із вказаної папки. Щоб здійснити видалення з іншої папки, натисніть кнопку «Огляд» і виберіть потрібну папку. $_CLICK
+# ^UnDirSubText
+""
+# ^UnDirBrowseText
+Виберіть папку, з котрої слід видалити $(^NameDA):
+# ^SpaceAvailable
+"Доступно на диску: "
+# ^SpaceRequired
+"Необхідно на диску: "
+# ^UninstallingText
+Програму $(^NameDA) буде видалено з вказаної папки. $_CLICK
+# ^UninstallingSubText
+Видалення з:
+# ^FileError
+Не вдалося відкрити файл для запису: \r\n\$0\r\n\r\nНатисніть кнопку «Перервати», щоб припинити інсталяцію,\r\n«Повторити», щоб спробувати знову, або\r\n«Пропустити», щоб пропустити цей файл.
+# ^FileError_NoIgnore
+Не вдалося відкрити файл для запису: \r\n\r\n$0\r\n\r\nНатисніть кнопку «Повторити», щоб спробувати знову, або\r\n«Скасувати», щоб припинити інсталяцію.
+# ^CantWrite
+"Неможливо записати: "
+# ^CopyFailed
+Помилка при копіюванні
+# ^CopyTo
+"Копіювання в "
+# ^Registering
+"Реєстрація: "
+# ^Unregistering
+"Видалення реєстрації: "
+# ^SymbolNotFound
+"Не вдалося знайти символ: "
+# ^CouldNotLoad
+"Не вдалося завантажити: "
+# ^CreateFolder
+"Створення папки: "
+# ^CreateShortcut
+"Створення ярлика: "
+# ^CreatedUninstaller
+"Створено програму видалення: "
+# ^Delete
+"Видалення файлу: "
+# ^DeleteOnReboot
+"Видалення після перезавантаження: "
+# ^ErrorCreatingShortcut
+"Помилка при створенні ярлика: " 
+# ^ErrorCreating
+"Помилка при створенні: "
+# ^ErrorDecompressing
+Не вдалося видобути дані. Можливо, дистрибутив пошкоджений.
+# ^ErrorRegistering
+Не вдалося зареєструвати бібліотеку (DLL)
+# ^ExecShell
+"Виконання команди оболонки: " 
+# ^Exec
+"Виконання: "
+# ^Extract
+"Видобування: "
+# ^ErrorWriting
+"Видобування: помилка запису у файл "
+# ^InvalidOpcode
+Дистрибутив пошкоджений: помилковий код 
+# ^NoOLE
+"Немає OLE для: " 
+# ^OutputFolder
+"Папка призначення: "
+# ^RemoveFolder
+"Видалення папки: "
+# ^RenameOnReboot
+"Перейменування після перезавантаження: "
+# ^Rename
+"Перейменування: "
+# ^Skipped
+"Пропущено: "
+# ^CopyDetails
+Копіювати інформацію в буфер обміну
+# ^LogInstall
+Вести журнал інсталяції
+# byte
+б
+# kilo
+ К
+# mega
+ М
+# giga
+ Г

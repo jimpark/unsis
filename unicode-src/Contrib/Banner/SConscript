@@ -1,0 +1,27 @@
+target = 'Banner'
+
+files = Split("""
+	Banner.c
+""")
+
+libs = Split("""
+	kernel32
+	user32
+""")
+
+docs = Split("""
+	Readme.txt
+""")
+
+Import('BuildPlugin env')
+
+if env['UNICODE']:
+	examples = Split("""
+		Unicode/Example.nsi
+	""")
+else:
+	examples = Split("""
+		ANSI/Example.nsi
+	""")
+
+BuildPlugin(target, files, libs, examples, docs)

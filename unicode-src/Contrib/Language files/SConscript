@@ -1,0 +1,55 @@
+import os
+import os.path
+
+Import('defenv')
+
+if defenv['UNICODE']:
+   languages = []
+
+   cwd = os.getcwd();
+
+   langSet = set()
+   unicodeDir = os.path.join(cwd, "Unicode")
+   if (os.path.isdir(unicodeDir)):
+      fileList = os.listdir(unicodeDir)
+      for p in fileList:
+         (base, ext) = os.path.splitext(p)
+         if (ext.lower() == ".nlf"):
+            langSet.add(base)
+
+   if defenv['INTERNAL']:
+      overrideSet = set()
+      overrideDir = os.path.join(cwd, "UnicodeOverride")
+      if (os.path.isdir(overrideDir)):
+         fileList = os.listdir(overrideDir)
+         for p in fileList:
+            (base, ext) = os.path.splitext(p)
+            if (ext.lower() == ".nlf"):
+               overrideSet.add(base)
+
+      for l in langSet:
+         if l in overrideSet:
+            languages.append("UnicodeOverride/" + l)
+         else:
+            languages.append("Unicode/" + l)
+   else:
+      for l in langSet:
+         languages.append("Unicode/" + l)
+
+else:
+   languages = []
+   cwd = os.getcwd();
+
+   ansiDir = os.path.join(cwd, "ANSI")
+   if (os.path.isdir(ansiDir)):
+      fileList = os.listdir(ansiDir)
+      s = set()
+      for p in fileList:
+         (base, ext) = os.path.splitext(p)
+         if (ext.lower() == ".nlf"):
+            s.add("ANSI/" + base)
+      languages = list(s)
+
+language_files = Flatten([(i + '.nlf', i + '.nsh') for i in languages])
+
+defenv.DistributeContrib(language_files, path='Language files')

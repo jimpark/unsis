@@ -1,0 +1,191 @@
+# Header, don't edit
+NLF v6
+# Start editing here
+# Language ID
+1081
+# Font and size - dash (-) means default
+-
+-
+# Codepage - dash (-) means ANSI code page
+-
+# RTL - anything else than RTL means LTR
+-
+# Translation by Yeswant Gogineni,Vrutti Vyas,Kunjan Sanghavi,Avinash Vutukuri,Anjali Vartak,Kiran Bartakke.
+# ^Branding
+Nullsoft स्थापित सिस्टम% s
+# ^SetupCaption
+$(^Name) सेटअप
+# ^UninstallCaption
+$(^Name) स्थापना रद्द करें
+# ^LicenseSubCaption
+: लाइसेंस अनुबंध
+# ^ComponentsSubCaption
+: स्थापना विकल्प
+# ^DirSubCaption
+: स्थापना फ़ोल्डर
+# ^InstallingSubCaption
+: अधिष्ठापन
+# ^CompletedSubCaption
+: संपूर्ण
+# ^UnComponentsSubCaption
+: स्थापना रद्द करने के विकल्प
+# ^UnDirSubCaption
+: स्थापना रद्द फ़ोल्डर
+# ^ConfirmSubCaption
+: पुष्टीकरण
+# ^UninstallingSubCaption
+: अप्रतिष्ठापित
+# ^UnCompletedSubCaption
+: पूरा
+# ^BackBtn
+< &वापस
+# ^NextBtn
+&अगला>
+# ^AgreeBtn
+& सहमत
+# ^AcceptBtn
+लाइसेंस अनुबंध की शर्तों को स्वीकार
+# ^DontAcceptBtn
+मैं लाइसेंस अनुबंध की शर्तों को स्वीकार नहीं करते
+# ^InstallBtn
+और स्थापित करें
+# ^UninstallBtn
+स्थापना रद्द करें और
+# ^CancelBtn
+रद्द
+# ^CloseBtn
+और बंद करें
+# ^BrowseBtn
+$ ब्राउज़ करें ...
+# ^ShowDetailsBtn
+और जानकारी दिखाएँ 
+# ^ClickNext
+जारी रखने के लिए अगला क्लिक करें.
+# ^ClickInstall
+अधिष्ठापन स्थापित शुरू करें क्लिक करें.
+# ^ClickUninstall
+स्थापना रद्द करने के लिए शुरू की स्थापना रद्द करें क्लिक करें.
+# ^Name
+नाम
+# ^Completed
+पूरा
+# ^LicenseText
+$(^NameDA) स्थापित करने से पहले लाइसेंस समझौते की समीक्षा करें. अगर आप इस समझौते की सभी शर्तों को स्वीकार है, मैं सहमत हूँ पर क्लिक करें
+# ^LicenseTextCB
+$(^NameDA) स्थापित करने से पहले लाइसेंस समझौते की समीक्षा करें. अगर आप इस समझौते की सभी शर्तों चेक बॉक्स क्लिक करें, स्वीकार करते हैं. $_CLICK
+# ^LicenseTextRB
+$(^NameDA) स्थापित करने से पहले लाइसेंस समझौते की समीक्षा करें. अगर आप इस समझौते की सभी शर्तों को स्वीकार, नीचे पहला विकल्प चुनें. $_CLICK
+# ^UnLicenseText
+$(^NameDA) अप्रतिष्ठापित पहले लाइसेंस समझौते की समीक्षा करें. अगर आप इस समझौते की सभी शर्तों को स्वीकार है, मैं सहमत हूँ पर क्लिक करें.
+# ^UnLicenseTextCB
+$(^NameDA) अप्रतिष्ठापित पहले लाइसेंस समझौते की समीक्षा करें. अगर आप इस समझौते की सभी शर्तों चेक बॉक्स क्लिक करें, स्वीकार करते हैं. $_CLICK
+# ^UnLicenseTextRB
+($ ^ NameDA) अप्रतिष्ठापित पहले लाइसेंस समझौते की समीक्षा करें. अगर आप इस समझौते की सभी शर्तों को स्वीकार, नीचे पहला विकल्प चुनें. $_CLICK
+# ^Custom
+कस्टम
+# ^ComponentsText
+घटकों आप को स्थापित करने और उपकरणों आप को स्थापित नहीं करना चाहते अनचेक करना चाहते हैं की जाँच करें. $_CLICK
+# ^ComponentsSubText1
+स्थापित करने के प्रकार का चयन करें:
+# ^ComponentsSubText2_NoInstTypes
+चुनें घटकों को स्थापित करने के लिए:
+# ^ComponentsSubText2
+या, वैकल्पिक घटकों आप अधिष्ठापित करना चाहते हैं का चयन करें
+# ^UnComponentsText
+घटकों आप स्थापना रद्द करने और उपकरणों आप स्थापना रद्द नहीं करना चाहते अनचेक करना चाहते हैं की जाँच करें. $_CLICK
+# ^UnComponentsSubText1
+स्थापना रद्द करने के प्रकार का चयन करें:
+# ^UnComponentsSubText2_NoInstTypes
+चयन घटकों की स्थापना रद्द करने के लिए:
+# ^UnComponentsSubText2
+या, वैकल्पिक घटकों आप स्थापना रद्द करना चाहते हैं का चयन करें:
+# ^DirText
+सेटअप निम्न फ़ोल्डर में $(^NameDA) स्थापित हो जाएगा. एक अलग फ़ोल्डर में स्थापित करें, ब्राउज़ करें क्लिक करें और किसी अन्य फ़ोल्डर का चयन करें. $_CLICK
+# ^DirSubText
+गंतव्य फ़ोल्डर
+# ^DirBrowseText
+के लिए $(^NameDA) स्थापित फ़ोल्डर का चयन करें
+# ^UnDirText
+सेटअप निम्न फ़ोल्डर से $(^NameDA) की स्थापना रद्द होगा. एक अलग फ़ोल्डर से स्थापना रद्द, ब्राउज़ करें क्लिक करें और किसी अन्य फ़ोल्डर का चयन करें. $_CLICK
+# ^UnDirSubText
+""
+# ^UnDirBrowseText
+के लिए $(^NameDA) की स्थापना रद्द फ़ोल्डर का चयन करें:
+# ^SpaceAvailable
+"उपलब्ध अंतरिक्ष:"
+# ^SpaceRequired
+"अंतरिक्ष आवश्यक:"
+# ^UninstallingText
+$(^NameDA) निम्न फ़ोल्डर से स्थापना रद्द हो जाएगा. $_CLICK
+# ^UninstallingSubText
+अप्रतिष्ठापित से:
+# ^FileError
+लिखने के लिए फ़ाइल खोलने में त्रुटि: \r\n\r\n$0\r\n\r\nक्लिक करें अबोर्ट  रोकने के लिए स्थापना,\r\nपुन: प्रयास फिर से प्रयास करने के लिए, या\r\n इस फाइल को छोड़ना ध्यान न दें.
+# ^FileError_NoIgnore
+लिखने के लिए फ़ाइल खोलने में त्रुटि: \r\n\r\n$0\r\n\r\nक्लिक करें पुन: प्रयास फिर से प्रयास करने के लिए, या\r\nरद्द अधिष्ठापन रोकने के लिए.
+# ^CantWrite
+"नहीं लिख सकता है:"
+# ^CopyFailed
+नकल नाकाम
+# ^CopyTo
+"को कॉपी"
+# ^Registering
+"पंजीयन:"
+# ^Unregistering
+"पंजीकरण रद्द:"
+# ^SymbolNotFound
+"प्रतीक नहीं पा सका:"
+# ^CouldNotLoad
+"नहीं कर सका:"
+# ^CreateFolder
+"फ़ोल्डर बनाएँ:"
+# ^CreateShortcut
+"शॉर्टकट बनाएँ:"
+# ^CreatedUninstaller
+"Uninstaller बनाया गया:"
+# ^Delete
+"हटाएँ फ़ाइल:"
+# ^DeleteOnReboot
+"रिबूट पर हटाएँ:"
+# ^ErrorCreatingShortcut
+"शॉर्टकट बनाने में त्रुटि:"
+# ^ErrorCreating
+"बनाने में त्रुटि:"
+# ^ErrorDecompressing
+decompressing डेटा त्रुटि! भ्रष्ट संस्थापक?
+# ^ErrorRegistering
+DLL पंजीकृत करने में त्रुटि
+# ^ExecShell
+"एक्सेच्शेल्ल :"
+# ^Exec
+"चलाएँ:"
+# ^Extract
+"निकालें"
+# ^ErrorWriting
+"निकालें: लेखन में त्रुटि फाइल करने के लिए"
+# ^InvalidOpcode
+अवैध opcode: इंस्टॉलर भ्रष्ट
+# ^NoOLE
+"के लिए कोई OLE:"
+# ^OutputFolder
+"आउटपुट फ़ोल्डर:"
+# ^RemoveFolder
+"फ़ोल्डर हटाएँ:"
+# ^RenameOnReboot
+"रिबूट पर नाम बदलें:"
+# ^Rename
+"नाम बदलें:"
+# ^Skipped
+"छोड़ दिया:"
+# ^CopyDetails
+क्लिपबोर्ड में प्रतिलिपि बनाएँ विवरण
+# ^LogInstall
+लॉग प्रक्रिया को स्थापित
+# ^Byte
+बी
+# ^Kilo
+के
+# ^Mega
+एम
+# ^Giga
+जी
