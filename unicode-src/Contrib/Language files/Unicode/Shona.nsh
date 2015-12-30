@@ -15,7 +15,7 @@
 
 !ifdef MUI_LICENSEPAGE
   ${LangFileString} MUI_TEXT_LICENSE_TITLE "License Agreement"
-  ${LangFileString} MUI_TEXT_LICENSE_SUBTITLE "Tapota tanga wanyatsoverenga chibvumirano chokuishandisa usati watanga kuisa $(^NameDA)."
+  ${LangFileString} MUI_TEXT_LICENSE_SUBTITLE "Tapota usati waisa $(^NameDA) tanga wanyatsoverenga Chibvumirano chacho."
   ${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM "Kana uchibvumirana nazvo, baya pakanzi Ndinobvuma kuti uenderere mberi. Unofanira kubvumirana nezvirimo kuti ukwanise kuisa $(^NameDA)."
   ${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM_CHECKBOX "Kana uchibvumirana nezviri muchibvumirano chokuishandisa, baya kabhokisi kari pasi apa. Unofanira kubvumirana nezvirimo kuti ukwanise kuisa $(^NameDA). $_CLICK"
   ${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM_RADIOBUTTONS "Kana uchibvuma zvataurwa muchibvumirano chokuishandisa, sarudza pekutanga pane zviri pazasi apa. Unofanira kubvumirana nezvirimo kuti ukwanise kuisa $(^NameDA). $_CLICK"
@@ -23,14 +23,14 @@
 
 !ifdef MUI_UNLICENSEPAGE
   ${LangFileString} MUI_UNTEXT_LICENSE_TITLE "License Agreement"
-  ${LangFileString} MUI_UNTEXT_LICENSE_SUBTITLE "Tapota tanga wanyatsoverenga zviri muchibvumirano chokuishandisa usati watanga kubvisa $(^NameDA)."
+  ${LangFileString} MUI_UNTEXT_LICENSE_SUBTITLE "Tapota usati waisa $(^NameDA) tanga wanyatsoverenga Chibvumirano chacho."
   ${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM "Kana uchibvumirana nazvo, baya pakanzi Ndinobvuma kuti uenderere mberi. Unofanira kubvumirana nezvirimo kuti ukwanise kubvisa $(^NameDA)."
   ${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM_CHECKBOX "Kana uchibvumirana nezviri muchibvumirano chokuishandisa, baya kabhokisi kari pasi apa. Unofanira kubvumirana nezvirimo kuti ukwanise kubvisa $(^NameDA). $_CLICK"
   ${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM_RADIOBUTTONS "Kana uchibvuma zvataurwa muchibvumirano chokuishandisa, sarudza pekutanga pane zviri pazasi apa. Unofanira kubvumirana nezvirimo kuti ukwanise kubvisa $(^NameDA). $_CLICK"
 !endif
 
 !ifdef MUI_LICENSEPAGE | MUI_UNLICENSEPAGE
-  ${LangFileString} MUI_INNERTEXT_LICENSE_TOP "Dzvanya bhatani rakanzi Page Down kuti uone mamwe mashoko echibvumirano chokuishandisa."
+  ${LangFileString} MUI_INNERTEXT_LICENSE_TOP "Dzvanya bhatani rakanzi Page Down kuti uone mamwe mashoko echibvumirano chacho."
 !endif
 
 !ifdef MUI_COMPONENTSPAGE
@@ -63,7 +63,7 @@
 !endif
 
 !ifdef MUI_INSTFILESPAGE
-  ${LangFileString} MUI_TEXT_INSTALLING_TITLE "Yava Kuisa Pakombiyuta"
+  ${LangFileString} MUI_TEXT_INSTALLING_TITLE "Yava Kuiswa Pakombiyuta"
   ${LangFileString} MUI_TEXT_INSTALLING_SUBTITLE "Tapota chimbomira $(^NameDA) pairi kumboiswa pakombiyuta."
   ${LangFileString} MUI_TEXT_FINISH_TITLE "Yapedza"
   ${LangFileString} MUI_TEXT_FINISH_SUBTITLE "Kuisa purogiramu iyi pakombiyuta kwabudirira."

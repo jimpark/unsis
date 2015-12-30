@@ -100,13 +100,13 @@ Sarudza zvaunoda kubvisa:
 # ^UnComponentsSubText2
 Kana kuti, sarudza zvimwewo zvaungada kubvisa:
 # ^DirText
-Kuisa nenzira iyi kuchaita kuti $(^NameDA) ive mufolder rinotevera. Kuti uise mune rimwe folder, baya pakanzi Tsvaga wosarudza rimwe folder. $_CLICK
+$(^NameDA) ichaiswa mufolder rinotevera. Kuti uise mune rimwe folder, baya kabhatani kari pazasi nechekurudyi wosarudza rimwe folder. $_CLICK
 # ^DirSubText
 Folder Rairi Kuenda
 # ^DirBrowseText
 Sarudza folder raunoda kuti $(^NameDA) iende:
 # ^UnDirText
-Kubvisa nenzira iyi kuchaita kuti $(^NameDA) ibve mufolder rinotevera. Kuti ubvise mune rimwe folder rakasiyana neiri, baya pakanzi Tsvaga wosarudza rimwe folder. $_CLICK
+$(^NameDA) ichabviswa mufolder rinotevera. Kuti ubvise mune rimwe folder rakasiyana neiri, baya pakanzi Tsvaga wosarudza rimwe folder. $_CLICK
 # ^UnDirSubText
 ""
 # ^UnDirBrowseText
@@ -144,9 +144,9 @@ Kukopa kwaramba
 # ^CreatedUninstaller
 "Ragadzira: "
 # ^Delete
-"Dzima faira: "
+"Bvisa: "
 # ^DeleteOnReboot
-"Dzima paunobatidzazve kombiyuta: "
+"Ngaribve panozobatidzwazve kombiyuta: "
 # ^ErrorCreatingShortcut
 "Haisi kukwanisa kugadzira faira rokudimbudzira: "
 # ^ErrorCreating
