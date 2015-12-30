@@ -1,6 +1,5 @@
 ;Language: 'Chinese (Traditional)' (1028)
 ;Translator: Kii Ali <kiiali@cpatch.org>
-;Revision date: 2004-12-15
 
 !insertmacro LANGFILE "TradChinese" "繁體中文"
 
@@ -120,3 +119,13 @@
 !ifdef MUI_UNABORTWARNING
   ${LangFileString} MUI_UNTEXT_ABORTWARNING "你確定要離開 $(^Name) 解除安裝嗎？"
 !endif
+
+!ifdef MULTIUSER_INSTALLMODEPAGE
+  ${LangFileString} MULTIUSER_TEXT_INSTALLMODE_TITLE "選擇用户"
+  ${LangFileString} MULTIUSER_TEXT_INSTALLMODE_SUBTITLE "選擇你想要為哪些用户安裝$(^NameDA)。"
+  ${LangFileString} MULTIUSER_INNERTEXT_INSTALLMODE_TOP "你只想為自己安裝$(^NameDA)還是為這台電腦的所有用户安裝？請選擇。$(^ClickNext)"
+  ${LangFileString} MULTIUSER_INNERTEXT_INSTALLMODE_ALLUSERS "為這台電腦的所有用户安裝"
+  ${LangFileString} MULTIUSER_INNERTEXT_INSTALLMODE_CURRENTUSER "只為自己安裝"
+!endif
+
+

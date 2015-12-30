@@ -1,5 +1,6 @@
 # Header, don't edit
 NLF v6
+# Start editing here
 # Language ID
 1028
 # Font and size - dash (-) means default 字型名稱與大小
@@ -9,7 +10,7 @@ NLF v6
 950
 # RTL - anything else than RTL means LTR 由右至左書寫
 -
-# Translator: Kii Ali <kiiali@cpatch.org>;Revision date: 2004-12-14
+# Translation by ..... (any credits should go here)
 # ^Branding
 Nullsoft Install System %s
 # ^SetupCaption
@@ -180,11 +181,11 @@ Setup 將解除安裝 $(^NameDA) 在下列資料夾。要解除安裝到不同�
 "複製細節到剪貼簿 "
 # ^LogInstall
 "日誌安裝進程"
-# byte
+# ^Byte
 B
-# kilo
+# ^Kilo
 K
-# mega
+# ^Mega
 M
-# giga
+# ^Giga
 G

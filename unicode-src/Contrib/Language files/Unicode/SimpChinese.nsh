@@ -1,7 +1,5 @@
 ;Language: 'Chinese (Simplified)' (2052)
-;Translator: Kii Ali <kiiali@cpatch.org>
-;Revision date: 2004-12-15
-;Verified by: QFox <qfox99@gmail.com>
+;Translator: Kii Ali <kiiali@cpatch.org>, Revision date: 2004-12-15, Verified by: QFox <qfox99@gmail.com>
 
 !insertmacro LANGFILE "SimpChinese" "简体中文"
 
@@ -120,4 +118,12 @@
 
 !ifdef MUI_UNABORTWARNING
   ${LangFileString} MUI_UNTEXT_ABORTWARNING "你确实要退出“$(^Name)”卸载吗？"
+!endif
+
+!ifdef MULTIUSER_INSTALLMODEPAGE
+  ${LangFileString} MULTIUSER_TEXT_INSTALLMODE_TITLE "选择用户"
+  ${LangFileString} MULTIUSER_TEXT_INSTALLMODE_SUBTITLE "选择你想要为哪些用户安装$(^NameDA)。"
+  ${LangFileString} MULTIUSER_INNERTEXT_INSTALLMODE_TOP "你只想为自己安装$(^NameDA)还是为这台电脑的所有用户安装？请选择。$(^ClickNext)"
+  ${LangFileString} MULTIUSER_INNERTEXT_INSTALLMODE_ALLUSERS "为这台电脑的所有用户安装"
+  ${LangFileString} MULTIUSER_INNERTEXT_INSTALLMODE_CURRENTUSER "只为自己安装"
 !endif
