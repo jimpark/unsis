@@ -1,0 +1,191 @@
+# Header, don't edit
+NLF v6
+# Start editing here
+# Language ID
+1033
+# Font and size - dash (-) means default
+-
+-
+# Codepage - dash (-) means ANSI code page
+-
+# RTL - anything else than RTL means LTR
+-
+# Translation by ..... (any credits should go here)
+# ^Branding
+Nullsoft Install System %s
+# ^SetupCaption
+$(^Name) Setup
+# ^UninstallCaption
+$(^Name) Uninstall
+# ^LicenseSubCaption
+: Kasunduan sa Paggamit
+# ^ComponentsSubCaption
+: Opsyon sa Installation
+# ^DirSubCaption
+: Folder Para sa Installation
+# ^InstallingSubCaption
+: Nag-i-install
+# ^CompletedSubCaption
+: Tapos Na
+# ^UnComponentsSubCaption
+: Opsyon sa Uninstallation
+# ^UnDirSubCaption
+: Folder Para sa Uninstallation
+# ^ConfirmSubCaption
+: Kumpirmasyon
+# ^UninstallingSubCaption
+: Nag-a-uninstall
+# ^UnCompletedSubCaption
+: Tapos Na
+# ^BackBtn
+< &Bumalik
+# ^NextBtn
+&Kasunod >
+# ^AgreeBtn
+I &Agree
+# ^AcceptBtn
+S&ang-ayon ako sa Kasunduan sa Paggamit
+# ^DontAcceptBtn
+Hin&di ako sang-ayon sa Kasunduan sa Paggamit
+# ^InstallBtn
+&I-install
+# ^UninstallBtn
+&I-uninstall
+# ^CancelBtn
+Ikansel
+# ^CloseBtn
+I&sara
+# ^BrowseBtn
+Mag-b&rowse...
+# ^ShowDetailsBtn
+Ipakita ang &detalye
+# ^ClickNext
+I-click ang Kasunod para magpatuloy.
+# ^ClickInstall
+I-click ang I-install para magsimula ang installation.
+# ^ClickUninstall
+I-click ang I-uninstall para magsimula ang uninstallation.
+# ^Name
+Pangalan
+# ^Completed
+Tapos Na
+# ^LicenseText
+Pakisuyong basahin ang kasunduan sa paggamit bago i-install ang $(^NameDA). Kung sang-ayon ka sa kasunduan, i-click ang I Agree.
+# ^LicenseTextCB
+Pakisuyong basahin ang kasunduan sa paggamit bago i-install ang $(^NameDA). Kung sang-ayon ka sa kasunduan, i-click ang kahon sa ibaba. $_CLICK
+# ^LicenseTextRB
+Pakisuyong basahin ang kasunduan sa paggamit bago i-install ang $(^NameDA). Kung sang-ayon ka sa kasunduan, piliin ang unang opsyon sa ibaba. $_CLICK
+# ^UnLicenseText
+Pakisuyong basahin ang kasunduan sa paggamit bago i-uninstall ang $(^NameDA). Kung sang-ayon ka sa kasunduan, i-click ang I Agree.
+# ^UnLicenseTextCB
+Pakisuyong basahin ang kasunduan sa paggamit bago i-uninstall ang $(^NameDA). Kung sang-ayon ka sa kasunduan, i-click ang kahon sa ibaba. $_CLICK
+# ^UnLicenseTextRB
+Pakisuyong basahin ang kasunduan sa paggamit bago i-uninstall ang $(^NameDA). Kung sang-ayon ka sa kasunduan, piliin ang unang opsyon sa ibaba. $_CLICK
+# ^Custom
+I-customize
+# ^ComponentsText
+I-check ang mga component na gusto mong i-install at i-uncheck ang mga component na ayaw mong i-install. $_CLICK
+# ^ComponentsSubText1
+Piliin ang uri ng installation:
+# ^ComponentsSubText2_NoInstTypes
+Piliin ang mga component na ii-install:
+# ^ComponentsSubText2
+O, piliin ang opsyonal na mga component na gusto mong i-install:
+# ^UnComponentsText
+I-check ang mga component na gusto mong i-uninstall at i-uncheck ang mga component na ayaw mong i-uninstall. $_CLICK
+# ^UnComponentsSubText1
+Piliin ang uri ng uninstallation:
+# ^UnComponentsSubText2_NoInstTypes
+Piliin ang mga component na ia-uninstall:
+# ^UnComponentsSubText2
+O, piliin ang opsyonal na mga component na gusto mong i-uninstall:
+# ^DirText
+Ii-install ng Setup ang $(^NameDA) sa folder na ito. Para mag-install sa ibang folder, i-click ang Mag-browse at pumili ng ibang folder. $_CLICK
+# ^DirSubText
+Pupuntahang Folder
+# ^DirBrowseText
+Piliin ang folder kung saan ii-install ang $(^NameDA):
+# ^UnDirText
+Ia-uninstall ng Setup ang $(^NameDA) sa folder na ito. Para mag-uninstall sa ibang folder, i-click ang Mag-browse at pumili ng ibang folder. $_CLICK
+# ^UnDirSubText
+""
+# ^UnDirBrowseText
+Piliin ang folder kung saan ia-uninstall ang $(^NameDA):
+# ^SpaceAvailable
+"May space pa: "
+# ^SpaceRequired
+"Wala nang space: "
+# ^UninstallingText
+Ang $(^NameDA) ay maa-uninstall sa folder na ito. $_CLICK
+# ^UninstallingSubText
+Nag-a-uninstall sa:
+# ^FileError
+Nag-error dahil wala nang space: \r\n\r\n$0\r\n\r\nI-click ang Abort para ihinto ang installation,\r\nRetry para subukan uli, o\r\nIgnore para laktawan ang file.
+# ^FileError_NoIgnore
+Nag-error dahil wala nang space: \r\n\r\n$0\r\n\r\nI-click ang Retry para subukan uli, o\r\nIkansel para ihinto ang installation.
+# ^CantWrite
+"Hindi makapag-install: "
+# ^CopyFailed
+Hindi nakopya
+# ^CopyTo
+"Kopyahin sa "
+# ^Registering
+"Nagre-register: "
+# ^Unregistering
+"Nag-a-unregister: "
+# ^SymbolNotFound
+"Hindi mahanap ang symbol: "
+# ^CouldNotLoad
+"Hindi makapag-load: "
+# ^CreateFolder
+"Gumawa ng folder: "
+# ^CreateShortcut
+"Gumawa ng shortcut: "
+# ^CreatedUninstaller
+"Gumawa ng uninstaller: "
+# ^Delete
+"I-delete ang file: "
+# ^DeleteOnReboot
+"I-delete kapag nag-reboot: "
+# ^ErrorCreatingShortcut
+"May error sa paggawa ng shortcut: "
+# ^ErrorCreating
+"May error sa: "
+# ^ErrorDecompressing
+May error sa pagde-decompress ng data! Baka may problema sa installer.
+# ^ErrorRegistering
+May error sa pagre-register ng DLL
+# ^ExecShell
+"ExecShell: "
+# ^Exec
+"Execute: "
+# ^Extract
+"Kunin: "
+# ^ErrorWriting
+"Kunin: nag-error dahil wala nang space "
+# ^InvalidOpcode
+May problema sa installer: hindi valid ang opcode
+# ^NoOLE
+"Walang OLE para sa: "
+# ^OutputFolder
+"Folder ng output: "
+# ^RemoveFolder
+"Alisin ang folder: "
+# ^RenameOnReboot
+"Palitan ang pangalan kapag nag-reboot: "
+# ^Rename
+"Palitan ang pangalan: "
+# ^Skipped
+"Nilaktawan: "
+# ^CopyDetails
+Kopyahin ang Detalye sa Clipboard
+# ^LogInstall
+I-log ang proseso ng pag-i-install
+# ^Byte
+B
+# ^Kilo
+K
+# ^Mega
+M
+# ^Giga
+G
