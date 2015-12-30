@@ -5,7 +5,7 @@
 
 !ifdef MUI_WELCOMEPAGE
   ${LangFileString} MUI_TEXT_WELCOME_INFO_TITLE "$(^NameDA) 설치를 시작합니다."
-  ${LangFileString} MUI_TEXT_WELCOME_INFO_TEXT "이 프로그램은 당신의 컴퓨터에 $(^NameDA)(을)를 설치할 것입니다.$\r$\n$\r$\n설치를 시작하기 전 가능한 한 모든 프로그램을 종료하여 주시기 바랍니다. 이는 재부팅을 하지 않고서도 시스템 파일을 수정할 수 있게 해줍니다.$\r$\n$\r$\n$_CLICK"
+  ${LangFileString} MUI_TEXT_WELCOME_INFO_TEXT "이 프로그램은 당신의 컴퓨터에 $(^NameDA)(을)를 설치할 것입니다.$\r$\n$\r$\n설치를 시작하기 전 가능한 한 모든 프로그램을 종료하여 주시기 바랍니다. 이는 재부팅을 하지 않고서도 시스템 파일을 수정할 수 있게 해 줍니다.$\r$\n$\r$\n$_CLICK"
 !endif
 
 !ifdef MUI_UNWELCOMEPAGE
@@ -63,7 +63,7 @@
 !endif
 
 !ifdef MUI_INSTFILESPAGE
-  ${LangFileString} MUI_TEXT_INSTALLING_TITLE "설치중"
+  ${LangFileString} MUI_TEXT_INSTALLING_TITLE "설치 중"
   ${LangFileString} MUI_TEXT_INSTALLING_SUBTITLE "$(^NameDA)(을)를 설치하는 동안 잠시 기다려 주세요."
   ${LangFileString} MUI_TEXT_FINISH_TITLE "설치 완료"
   ${LangFileString} MUI_TEXT_FINISH_SUBTITLE "설치가 성공적으로 완료되었습니다."
@@ -72,9 +72,9 @@
 !endif
 
 !ifdef MUI_UNINSTFILESPAGE
-  ${LangFileString} MUI_UNTEXT_UNINSTALLING_TITLE "제거중"
+  ${LangFileString} MUI_UNTEXT_UNINSTALLING_TITLE "제거 중"
   ${LangFileString} MUI_UNTEXT_UNINSTALLING_SUBTITLE "$(^NameDA)(을)를 제거하는 동안 잠시 기다려 주시기 바랍니다."
-  ${LangFileString} MUI_UNTEXT_FINISH_TITLE "제거 마침"
+  ${LangFileString} MUI_UNTEXT_FINISH_TITLE "제거 완료"
   ${LangFileString} MUI_UNTEXT_FINISH_SUBTITLE "프로그램을 성공적으로 제거하였습니다."
   ${LangFileString} MUI_UNTEXT_ABORT_TITLE "프로그램 제거 취소"
   ${LangFileString} MUI_UNTEXT_ABORT_SUBTITLE "프로그램 제거가 취소되었습니다."
@@ -82,13 +82,13 @@
 
 !ifdef MUI_FINISHPAGE
   ${LangFileString} MUI_TEXT_FINISH_INFO_TITLE "$(^NameDA) 설치 완료"
-  ${LangFileString} MUI_TEXT_FINISH_INFO_TEXT "$(^NameDA)의 설치가 완료되었습니다. 설치 프로그램을 마치려면 '마침' 버튼을 눌러 주세요."
+  ${LangFileString} MUI_TEXT_FINISH_INFO_TEXT "$(^NameDA)의 설치가 완료되었습니다.$\r$\n$\r$\n설치 프로그램을 마치려면 '마침' 버튼을 눌러 주세요."
   ${LangFileString} MUI_TEXT_FINISH_INFO_REBOOT "$(^NameDA)의 설치를 완료하기 위해서는 시스템을 다시 시작해야 합니다. 지금 재부팅 하시겠습니까?"
 !endif
 
 !ifdef MUI_UNFINISHPAGE
-  ${LangFileString} MUI_UNTEXT_FINISH_INFO_TITLE "제거 완료"
-  ${LangFileString} MUI_UNTEXT_FINISH_INFO_TEXT "$(^NameDA)의 제거가 완료 되었습니다."
+  ${LangFileString} MUI_UNTEXT_FINISH_INFO_TITLE "$(^NameDA) 제거 완료"
+  ${LangFileString} MUI_UNTEXT_FINISH_INFO_TEXT "$(^NameDA)의 제거가 완료되었습니다.$\r$\n$\r$\n설치 프로그램을 마치려면 '마침' 버튼을 눌러 주세요."
   ${LangFileString} MUI_UNTEXT_FINISH_INFO_REBOOT "$(^NameDA)의 제거를 완료하기 위해서는 시스템을 다시 시작해야 합니다. 지금 재부팅 하시겠습니까?"
 !endif
 
@@ -97,12 +97,12 @@
   ${LangFileString} MUI_TEXT_FINISH_REBOOTLATER "나중에 재부팅 하겠습니다."
   ${LangFileString} MUI_TEXT_FINISH_RUN "$(^NameDA) 실행하기(&R)"
   ${LangFileString} MUI_TEXT_FINISH_SHOWREADME "Readme 파일 보기(&S)"
-  ${LangFileString} MUI_BUTTONTEXT_FINISH "마침"  
+  ${LangFileString} MUI_BUTTONTEXT_FINISH "마침(&F)"
 !endif
 
 !ifdef MUI_STARTMENUPAGE
   ${LangFileString} MUI_TEXT_STARTMENU_TITLE "시작 메뉴 폴더 선택"
-  ${LangFileString} MUI_TEXT_STARTMENU_SUBTITLE "프로그램의 바로 가기 아이콘이 생성될 시작 메뉴 폴더 선택."
+  ${LangFileString} MUI_TEXT_STARTMENU_SUBTITLE "$(^NameDA) 프로그램의 바로 가기 아이콘이 생성될 시작 메뉴 폴더 선택."
   ${LangFileString} MUI_INNERTEXT_STARTMENU_TOP "프로그램의 바로 가기 아이콘이 생성될 시작 메뉴 폴더를 선택하세요. 새로운 폴더를 생성하려면 폴더 이름을 입력하세요."
   ${LangFileString} MUI_INNERTEXT_STARTMENU_CHECKBOX "바로 가기 아이콘을 만들지 않겠습니다."
 !endif
@@ -118,4 +118,12 @@
 
 !ifdef MUI_UNABORTWARNING
   ${LangFileString} MUI_UNTEXT_ABORTWARNING "$(^Name) 제거를 취소하시겠습니까?"
+!endif
+
+!ifdef MULTIUSER_INSTALLMODEPAGE
+  ${LangFileString} MULTIUSER_TEXT_INSTALLMODE_TITLE "사용자 선택"
+  ${LangFileString} MULTIUSER_TEXT_INSTALLMODE_SUBTITLE "$(^NameDA)(을)를 설치할 사용자 선택."
+  ${LangFileString} MULTIUSER_INNERTEXT_INSTALLMODE_TOP "$(^NameDA)(을)를 자신에게만 설치할 것인지 이 컴퓨터의 모든 사용자에게 설치할 것인지 선택하세요."
+  ${LangFileString} MULTIUSER_INNERTEXT_INSTALLMODE_ALLUSERS "이 컴퓨터의 모든 사용자에게 설치"
+  ${LangFileString} MULTIUSER_INNERTEXT_INSTALLMODE_CURRENTUSER "나에게만 설치"
 !endif
