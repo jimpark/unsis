@@ -61,9 +61,9 @@ Abbrechen
 # ^ClickNext
 Klicken Sie auf Weiter, um fortzufahren.
 # ^ClickInstall
-Klicken Sie auf Installieren, um die Installation zu starten.
+Klicke auf Installieren, um die Installation zu starten.
 # ^ClickUninstall
-Klicken Sie auf Deinstallieren, um die Deinstallation zu starten.
+Klicke auf Deinstallieren, um die Deinstallation zu starten.
 # ^Name
 Name
 # ^Completed
@@ -99,7 +99,7 @@ Wählen Sie die Komponenten aus, die Sie entfernen möchten:
 # ^UnComponentsSubText2
 oder wählen Sie zusätzliche Komponenten aus, die Sie entfernen möchten:
 # ^DirText
-$(^NameDA) wird in das unten angegebene Verzeichnis installiert. Falls Sie in ein anderes Verzeichnis installieren möchten, klicken Sie auf Durchsuchen und wählen Sie ein anderes Verzeichnis aus. $_CLICK
+$(^NameDA) wird in dem unten angegebenen Verzeichnis installiert. Falls du ein anderes Verzeichnis verwenden möchtest, klicke auf Durchsuchen und wähle das neue Verzeichnis aus. $_CLICK
 # ^DirSubText
 Zielverzeichnis
 # ^DirBrowseText

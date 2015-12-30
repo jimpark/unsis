@@ -14,9 +14,9 @@
 !endif
 
 !ifdef MUI_LICENSEPAGE
-  ${LangFileString} MUI_TEXT_LICENSE_TITLE "Lizenzabkommen"
-  ${LangFileString} MUI_TEXT_LICENSE_SUBTITLE "Bitte lesen Sie die Lizenzbedingungen durch, bevor Sie mit der Installation fortfahren."
-  ${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM "Falls Sie alle Bedingungen des Abkommens akzeptieren, klicken Sie auf Annehmen. Sie müssen die Lizenzvereinbarungen anerkennen, um $(^NameDA) installieren zu können."
+  ${LangFileString} MUI_TEXT_LICENSE_TITLE "Lizenzvereinbarung"
+  ${LangFileString} MUI_TEXT_LICENSE_SUBTITLE "Lies bitte den Lizenzvertrag ganz durch, bevor du $(^NameDA) installierst."
+  ${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM "Um $(^NameDA) installieren zu können, musst du die Lizenzvereinbarung akzeptieren. Klicke dazu auf 'Annehmen'."
   ${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM_CHECKBOX "Falls Sie alle Bedingungen des Abkommens akzeptieren, aktivieren Sie das Kästchen. Sie müssen die Lizenzvereinbarungen anerkennen, um $(^NameDA) installieren zu können. $_CLICK"
   ${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM_RADIOBUTTONS "Falls Sie alle Bedingungen des Abkommens akzeptieren, wählen Sie unten die entsprechende Option. Sie müssen die Lizenzvereinbarungen anerkennen, um $(^NameDA) installieren zu können. $_CLICK"
 !endif
@@ -30,7 +30,7 @@
 !endif
 
 !ifdef MUI_LICENSEPAGE | MUI_UNLICENSEPAGE
-  ${LangFileString} MUI_INNERTEXT_LICENSE_TOP "Drücken Sie die Bild-nach-unten Taste, um den Rest des Abkommens zu sehen."
+  ${LangFileString} MUI_INNERTEXT_LICENSE_TOP "Die Bild-nach-unten-Taste drücken, um den Rest des Lizenzvertrags zu sehen."
 !endif
 
 !ifdef MUI_COMPONENTSPAGE
@@ -64,7 +64,7 @@
 
 !ifdef MUI_INSTFILESPAGE
   ${LangFileString} MUI_TEXT_INSTALLING_TITLE "Installiere..."
-  ${LangFileString} MUI_TEXT_INSTALLING_SUBTITLE "Bitte warten Sie, während $(^NameDA) installiert wird."
+  ${LangFileString} MUI_TEXT_INSTALLING_SUBTITLE "Bitte warte, während $(^NameDA) installiert wird."
   ${LangFileString} MUI_TEXT_FINISH_TITLE "Die Installation ist vollständig"
   ${LangFileString} MUI_TEXT_FINISH_SUBTITLE "Die Installation wurde erfolgreich abgeschlossen."
   ${LangFileString} MUI_TEXT_ABORT_TITLE "Abbruch der Installation"
@@ -73,7 +73,7 @@
 
 !ifdef MUI_UNINSTFILESPAGE
   ${LangFileString} MUI_UNTEXT_UNINSTALLING_TITLE "Deinstalliere..."
-  ${LangFileString} MUI_UNTEXT_UNINSTALLING_SUBTITLE "Bitte warten Sie, während $(^NameDA) entfernt wird."
+  ${LangFileString} MUI_UNTEXT_UNINSTALLING_SUBTITLE "Bitte warte, während $(^NameDA) entfernt wird."
   ${LangFileString} MUI_UNTEXT_FINISH_TITLE "Die Deinstallation ist vollständig"
   ${LangFileString} MUI_UNTEXT_FINISH_SUBTITLE "Die Deinstallation wurde erfolgreich abgeschlossen."
   ${LangFileString} MUI_UNTEXT_ABORT_TITLE "Abbruch der Deinstallation"
@@ -82,7 +82,7 @@
 
 !ifdef MUI_FINISHPAGE
   ${LangFileString} MUI_TEXT_FINISH_INFO_TITLE "Die Installation von $(^NameDA) wird abgeschlossen"
-  ${LangFileString} MUI_TEXT_FINISH_INFO_TEXT "$(^NameDA) wurde auf Ihrem Computer installiert.$\r$\n$\r$\nKlicken Sie auf Fertig stellen, um den Installations-Assistenten zu schließen."
+  ${LangFileString} MUI_TEXT_FINISH_INFO_TEXT "$(^NameDA) wurde auf deinem Computer installiert.$\r$\n$\r$\nKlicke auf Fertig stellen, um den Installations-Assistenten zu schließen."
   ${LangFileString} MUI_TEXT_FINISH_INFO_REBOOT "Windows muss neu gestartet werden, um die Installation von $(^NameDA) zu vervollständigen. Möchten Sie Windows jetzt neu starten?"
 !endif
 
@@ -96,7 +96,7 @@
   ${LangFileString} MUI_TEXT_FINISH_REBOOTNOW "Jetzt neu starten"
   ${LangFileString} MUI_TEXT_FINISH_REBOOTLATER "Windows später selbst neu starten"
   ${LangFileString} MUI_TEXT_FINISH_RUN "$(^NameDA) ausführen"
-  ${LangFileString} MUI_TEXT_FINISH_SHOWREADME "Liesmich anzeigen"
+  ${LangFileString} MUI_TEXT_FINISH_SHOWREADME "Readme anzeigen"
   ${LangFileString} MUI_BUTTONTEXT_FINISH "&Fertig stellen"  
 !endif
 
@@ -113,11 +113,11 @@
 !endif
 
 !ifdef MUI_ABORTWARNING
-  ${LangFileString} MUI_TEXT_ABORTWARNING "Sind Sie sicher, dass Sie die Installation von $(^Name) abbrechen wollen?"
+  ${LangFileString} MUI_TEXT_ABORTWARNING "Bist du sicher, dass du die Installation von $(^Name) abbrechen möchtest?"
 !endif
 
 !ifdef MUI_UNABORTWARNING
-  ${LangFileString} MUI_UNTEXT_ABORTWARNING "Sind Sie sicher, dass Sie die Deinstallation von $(^Name) abbrechen möchten?"
+  ${LangFileString} MUI_UNTEXT_ABORTWARNING "Bist du sicher, dass Sie die Deinstallation von $(^Name) abbrechen möchtest?"
 !endif
 
 !ifdef MULTIUSER_INSTALLMODEPAGE
