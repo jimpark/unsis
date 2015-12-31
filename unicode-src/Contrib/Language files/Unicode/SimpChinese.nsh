@@ -1,7 +1,7 @@
 ;Language: 'Chinese (Simplified)' (2052)
-;Translator: Kii Ali <kiiali@cpatch.org>, Revision date: 2004-12-15, Verified by: QFox <qfox99@gmail.com>
+;Translator: Kii Ali <kiiali@cpatch.org><qfox99@gmail.com>
 
-!insertmacro LANGFILE "SimpChinese" "简体中文"
+!insertmacro LANGFILE "SimpChinese" "中文简体"
 
 !ifdef MUI_WELCOMEPAGE
   ${LangFileString} MUI_TEXT_WELCOME_INFO_TITLE "欢迎使用“$(^NameDA)”安装向导"
@@ -14,23 +14,23 @@
 !endif
 
 !ifdef MUI_LICENSEPAGE
-  ${LangFileString} MUI_TEXT_LICENSE_TITLE "许可证协议"
-  ${LangFileString} MUI_TEXT_LICENSE_SUBTITLE "在安装“$(^NameDA)”之前，请阅读授权协议。"
-  ${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM "如果你接受协议中的条款，单击 [我接受(I)] 继续安装。如果你选定 [取消(C)] ，安装程序将会关闭。必须接受协议才能安装“$(^NameDA)”。"
+  ${LangFileString} MUI_TEXT_LICENSE_TITLE "许可协议"
+  ${LangFileString} MUI_TEXT_LICENSE_SUBTITLE "在安装“$(^NameDA)”之前，请阅读许可协议。"
+  ${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM "如果你接受协议中的条款，单击 [我接受(I)] 继续安装。必须接受协议才能安装“$(^NameDA)”。"
   ${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM_CHECKBOX "如果你接受协议中的条款，单击下方的勾选框。必须要接受协议才能安装 $(^NameDA)。$_CLICK"
   ${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM_RADIOBUTTONS "如果你接受协议中的条款，选择下方第一个选项。必须要接受协议才能安装 $(^NameDA)。$_CLICK"
 !endif
 
 !ifdef MUI_UNLICENSEPAGE
-  ${LangFileString} MUI_UNTEXT_LICENSE_TITLE "许可证协议"
+  ${LangFileString} MUI_UNTEXT_LICENSE_TITLE "许可协议"
   ${LangFileString} MUI_UNTEXT_LICENSE_SUBTITLE "在卸载“$(^NameDA)”之前，请检阅授权条款。"
-  ${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM "如果你接受协议中的条款，单击 [我接受(I)] 继续卸载。如果你选定 [取消(C)] ，安装程序将会关闭。必须要接受协议才能卸载“$(^NameDA)”。"
+  ${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM "如果你接受协议中的条款，单击 [我接受(I)] 继续卸载。必须要接受协议才能卸载“$(^NameDA)”。"
   ${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM_CHECKBOX "如果你接受协议中的条款，单击下方的勾选框。必须要接受协议才能卸载 $(^NameDA)。$_CLICK"
   ${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM_RADIOBUTTONS "如果你接受协议中的条款，选择下方第一个选项。必须要接受协议才能卸载 $(^NameDA)。$_CLICK"
 !endif
 
 !ifdef MUI_LICENSEPAGE | MUI_UNLICENSEPAGE
-  ${LangFileString} MUI_INNERTEXT_LICENSE_TOP "按 [PgDn] 阅读“授权协议”的其余部分。"
+  ${LangFileString} MUI_INNERTEXT_LICENSE_TOP "按 [PgDn] 阅读“许可协议”的其余部分。"
 !endif
 
 !ifdef MUI_COMPONENTSPAGE
@@ -121,9 +121,9 @@
 !endif
 
 !ifdef MULTIUSER_INSTALLMODEPAGE
-  ${LangFileString} MULTIUSER_TEXT_INSTALLMODE_TITLE "选择用户"
-  ${LangFileString} MULTIUSER_TEXT_INSTALLMODE_SUBTITLE "选择你想要为哪些用户安装$(^NameDA)。"
-  ${LangFileString} MULTIUSER_INNERTEXT_INSTALLMODE_TOP "你只想为自己安装$(^NameDA)还是为这台电脑的所有用户安装？请选择。$(^ClickNext)"
-  ${LangFileString} MULTIUSER_INNERTEXT_INSTALLMODE_ALLUSERS "为这台电脑的所有用户安装"
-  ${LangFileString} MULTIUSER_INNERTEXT_INSTALLMODE_CURRENTUSER "只为自己安装"
+  ${LangFileString} MULTIUSER_TEXT_INSTALLMODE_TITLE "选择用户账户"
+  ${LangFileString} MULTIUSER_TEXT_INSTALLMODE_SUBTITLE "选择你想要安装的用户账户$(^NameDA)。"
+  ${LangFileString} MULTIUSER_INNERTEXT_INSTALLMODE_TOP "选择安装在$(^NameDA) 你的账户或这台电脑的所有账户上$(^ClickNext)"
+  ${LangFileString} MULTIUSER_INNERTEXT_INSTALLMODE_ALLUSERS "安装在所有的用户账户上"
+  ${LangFileString} MULTIUSER_INNERTEXT_INSTALLMODE_CURRENTUSER "只安装在我的用户账户上"
 !endif

@@ -1,7 +1,7 @@
 ;Language: 'Chinese (Traditional)' (1028)
 ;Translator: Kii Ali <kiiali@cpatch.org>
 
-!insertmacro LANGFILE "TradChinese" "繁體中文"
+!insertmacro LANGFILE "TradChinese" "中文繁體"
 
 !ifdef MUI_WELCOMEPAGE
   ${LangFileString} MUI_TEXT_WELCOME_INFO_TITLE "歡迎使用 $(^NameDA) 安裝精靈"
@@ -16,7 +16,7 @@
 !ifdef MUI_LICENSEPAGE
   ${LangFileString} MUI_TEXT_LICENSE_TITLE "授權協議"
   ${LangFileString} MUI_TEXT_LICENSE_SUBTITLE "在安裝 $(^NameDA) 之前，請檢閱授權條款。"
-  ${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM "如果你接受協議中的條款，按一下 [我同意(I)] 繼續安裝。如果你選取 [取消(C)] ，安裝程式將會關閉。必須要接受協議才能安裝 $(^NameDA) 。"
+  ${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM "如果你接受協議中的條款，按一下 [我同意(I)] 繼續安裝。必須要接受協議才能安裝 $(^NameDA) 。"
   ${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM_CHECKBOX "如果你接受協議中的條款，按一下下方的勾選框。必須要接受協議才能安裝 $(^NameDA)。$_CLICK"
   ${LangFileString} MUI_INNERTEXT_LICENSE_BOTTOM_RADIOBUTTONS "如果你接受協議中的條款，選擇下方第一個選項。必須要接受協議才能安裝 $(^NameDA)。$_CLICK"
 !endif
@@ -24,7 +24,7 @@
 !ifdef MUI_UNLICENSEPAGE
   ${LangFileString} MUI_UNTEXT_LICENSE_TITLE "授權協議"
   ${LangFileString} MUI_UNTEXT_LICENSE_SUBTITLE "在解除安裝 $(^NameDA) 之前，請檢閱授權條款。"
-  ${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM "如果你接受協議中的條款，按一下 [我同意(I)] 繼續解除安裝。如果你選取 [取消(C)] ，安裝程式將會關閉。必須要接受協議才能解除安裝 $(^NameDA) 。"
+  ${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM "如果你接受協議中的條款，按一下 [我同意(I)] 繼續解除安裝。必須要接受協議才能解除安裝 $(^NameDA) 。"
   ${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM_CHECKBOX "如果你接受協議中的條款，按一下下方的勾選框。必須要接受協議才能解除安裝 $(^NameDA)。$_CLICK"
   ${LangFileString} MUI_UNINNERTEXT_LICENSE_BOTTOM_RADIOBUTTONS "如果你接受協議中的條款，選擇下方第一個選項。必須要接受協議才能解除安裝 $(^NameDA)。$_CLICK"
 !endif
@@ -121,11 +121,9 @@
 !endif
 
 !ifdef MULTIUSER_INSTALLMODEPAGE
-  ${LangFileString} MULTIUSER_TEXT_INSTALLMODE_TITLE "選擇用户"
-  ${LangFileString} MULTIUSER_TEXT_INSTALLMODE_SUBTITLE "選擇你想要為哪些用户安裝$(^NameDA)。"
-  ${LangFileString} MULTIUSER_INNERTEXT_INSTALLMODE_TOP "你只想為自己安裝$(^NameDA)還是為這台電腦的所有用户安裝？請選擇。$(^ClickNext)"
-  ${LangFileString} MULTIUSER_INNERTEXT_INSTALLMODE_ALLUSERS "為這台電腦的所有用户安裝"
-  ${LangFileString} MULTIUSER_INNERTEXT_INSTALLMODE_CURRENTUSER "只為自己安裝"
+  ${LangFileString} MULTIUSER_TEXT_INSTALLMODE_TITLE "選擇使用者帳戶"
+  ${LangFileString} MULTIUSER_TEXT_INSTALLMODE_SUBTITLE "選擇你想要安裝的使用者帳戶$(^NameDA)。"
+  ${LangFileString} MULTIUSER_INNERTEXT_INSTALLMODE_TOP "選擇安裝在$(^NameDA)你的帳戶或這台電腦的所有帳戶上。 $(^ClickNext)"
+  ${LangFileString} MULTIUSER_INNERTEXT_INSTALLMODE_ALLUSERS "安裝在所有的使用者帳戶上"
+  ${LangFileString} MULTIUSER_INNERTEXT_INSTALLMODE_CURRENTUSER "只安裝在我的使用者帳戶上"
 !endif
-
-
